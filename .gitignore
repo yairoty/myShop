@@ -1,0 +1,12 @@
+/build
+/node_modules
+/vendor
+/.sublime-grunt.cache
+/bin
+/src/assets/*.db
+/target
+/node
+/node_modules
+/.sonar
+/reporter
+/.idea

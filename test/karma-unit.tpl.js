@@ -11,7 +11,6 @@ module.exports = function(karma) {
     files: ['vendor/jasmine-given/dist/jasmine-given.js',
             <% scripts.forEach(function(file) { %>'<%= file %>',
             <% }); %> ,
-            'src/**/*.module.js',
             'src/**/*.js',
             'test/unit/**/*'
     ],
