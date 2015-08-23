@@ -1,0 +1,10 @@
+<div class="product-card">
+    <h3 class="card-header">{{vm.item.displayName}}</h3>
+    <div class="btn-group card-list">
+        <vertical-nav
+                custom-class="card-list"
+                on-select="vm.onSelect(option)"
+                list="vm.item.subProducts">
+        </vertical-nav>
+    </div>
+</div>

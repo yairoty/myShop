@@ -4,7 +4,10 @@
 
   function productCard() {
     return {
-      scope: {},
+      scope: {
+        item:'=',
+        query:'='
+      },
       restrict: 'E',
       controller: 'productCardCtrl',
       controllerAs: 'vm',

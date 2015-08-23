@@ -14,7 +14,16 @@ angular.module("app.tpl.html", []).run(["$templateCache", function($templateCach
 
 angular.module("common/component/product-card/product-card.tpl.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("common/component/product-card/product-card.tpl.html",
-    "");
+    "<div class=\"product-card\">\n" +
+    "    <h3 class=\"card-header\">{{vm.item.displayName}}</h3>\n" +
+    "    <div class=\"btn-group card-list\">\n" +
+    "        <vertical-nav\n" +
+    "                custom-class=\"card-list\"\n" +
+    "                on-select=\"vm.onSelect(option)\"\n" +
+    "                list=\"vm.item.subProducts\">\n" +
+    "        </vertical-nav>\n" +
+    "    </div>\n" +
+    "</div>");
 }]);
 
 angular.module("common/component/vertical-nav/vertical-nav.tpl.html", []).run(["$templateCache", function($templateCache) {
@@ -25,9 +34,9 @@ angular.module("common/component/vertical-nav/vertical-nav.tpl.html", []).run(["
     "    <label class=\"btn side-navbar-item\"\n" +
     "           ng-model=\"vm.navbarSelected\"\n" +
     "           btn-radio=\"{{category}}\"\n" +
-    "           ng-click=\"vm.contentContainer = category\">\n" +
+    "           ng-click=\"vm.onSelect({option: category})\">\n" +
     "            <!--TODO: angular 1.3.18 bug? $parent needed to get to this-->\n" +
-    "            {{category[$parent.vm.titleProp]}}\n" +
+    "            {{$parent.vm.displayTitle(category)}}\n" +
     "    </label>\n" +
     "</div>");
 }]);
@@ -41,28 +50,17 @@ angular.module("library/library.tpl.html", []).run(["$templateCache", function($
     "            <div class=\"side-navbar-title\"><h2>Categoreis</h2></div>\n" +
     "            <vertical-nav\n" +
     "                    custom-class=\"side-navbar-container\"\n" +
-    "                    on-select=\"vm.onSelect(selected)\"\n" +
+    "                    on-select=\"vm.onSelect(option)\"\n" +
     "                    title-prop=\"displayName\"\n" +
     "                    list=\"vm.categories\">\n" +
     "            </vertical-nav>\n" +
     "        </div>\n" +
     "    </section>\n" +
     "    <section class=\"content\">\n" +
-    "        <!-- yair: move to directive -->\n" +
-    "        <div class=\"content-container\" ng-model=\"vm.contentContainer\">\n" +
-    "            <div ng-repeat=\"product in vm.contentContainer.products\"\n" +
-    "                    class=\"product-card\">\n" +
-    "                <h5 class=\"card-header\">{{product.displayName}}</h5>\n" +
-    "                <div class=\"btn-group card-list\"\n" +
-    "                     ng-repeat=\"item in product.subProducts\">\n" +
-    "                    <label class=\"btn side-navbar-item\"\n" +
-    "                           ng-model=\"vm.navbarSelected\"\n" +
-    "                           btn-radio=\"{{item}}\"\n" +
-    "                           ng-click=\"vm.contentContainer = vm.navbarSelected\">\n" +
-    "                        {{item}}\n" +
-    "                    </label>\n" +
-    "                </div>\n" +
-    "            </div>\n" +
+    "        <div class=\"content-container\" ng-repeat=\"content in vm.cardList\">\n" +
+    "            <product-card\n" +
+    "                    item=\"content\">\n" +
+    "            </product-card>\n" +
     "        </div>\n" +
     "    </section>\n" +
     "</div>\n" +

@@ -10,6 +10,7 @@
     init();
 
     function init() {
+      console.log(vm.item);
     }
   }
 })(angular.module('web-app'));

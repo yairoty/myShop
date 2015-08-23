@@ -6,12 +6,16 @@
   function verticalNavCtrl() {
 
     var vm = this;
-    /*vm.showTitle = showTitle;*/
+    vm.displayTitle = displayTitle;
 
     init();
 
     function init() {
-      console.log(vm.customClass, vm.titleProp);
+      console.log(vm.list);
+    }
+
+    function displayTitle(object){
+      return vm.titleProp ? object[vm.titleProp]: object;
     }
   }
 })(angular.module('web-app'));

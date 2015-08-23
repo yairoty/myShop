@@ -7,7 +7,10 @@
 
     var vm = this;
 
+    vm.cardList = undefined;
+
     vm.usrActivate = usrActivate;
+    vm.onSelect = onSelect;
 
     init();
 
@@ -18,7 +21,11 @@
     }
 
     function usrActivate($element){
-      console.log($element);
+
+    }
+
+    function onSelect(option){
+      vm.cardList = option.option.products;
     }
   }
 })(angular.module('web-app'));
