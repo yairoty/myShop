@@ -103,17 +103,17 @@
           {
             "uId":14,
             "displayName":"Product1",
-            "subProducts":["subProduct1.1","subProduct1.2","subProduct1.3"]
+            "subProducts":["subProduct1_1","subProduct1_2","subProduct1_3"]
           },
           {
             "uId":15,
             "displayName":"Product2",
-            "subProducts":["subProduct2.1","subProduct2.2","subProduct2.3"]
+            "subProducts":["subProduct2_1","subProduct2_2","subProduct2_3"]
           },
           {
             "uId":16,
             "displayName":"Product3",
-            "subProducts":["subProduct3.1","subProduct3.2"]
+            "subProducts":["subProduct3_1","subProduct3_2"]
           }
         ]
       }

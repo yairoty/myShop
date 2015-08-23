@@ -7,10 +7,14 @@
 
     var vm = this;
 
+    vm.onSelect = onSelect;
     init();
 
     function init() {
-      console.log(vm.item);
+    }
+
+    function onSelect(object){
+
     }
   }
 })(angular.module('web-app'));

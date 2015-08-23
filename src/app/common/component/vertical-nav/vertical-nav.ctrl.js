@@ -11,7 +11,6 @@
     init();
 
     function init() {
-      console.log(vm.list);
     }
 
     function displayTitle(object){

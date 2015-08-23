@@ -7518,4 +7518,30 @@ body {
     width: 90%;
     height: 100%; }
 
+.product-card {
+  max-height: 450px;
+  width: 300px;
+  background-color: #f2f2f2;
+  float: left;
+  margin: 10px;
+  padding: 2px 1px;
+  overflow-y: auto; }
+  .product-card .card-header {
+    height: 25px;
+    text-align: center;
+    color: #df8a13; }
+
+.card-list {
+  width: 100%; }
+  .card-list .side-navbar-item {
+    width: 100%;
+    height: 40px;
+    display: block;
+    background-color: #f0ad4e;
+    border-color: #999999;
+    color: #fff;
+    border-radius: 0; }
+    .card-list .side-navbar-item.active {
+      background-color: #3b4a5a; }
+
 /*# sourceMappingURL=web-client-0.0.1.css.map */
