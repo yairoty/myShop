@@ -1,7 +1,456 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b9b8346-bd04-4e9b-9ffa-7e71cbcc662c" name="Default" comment="" />
+    <list default="true" id="0b9b8346-bd04-4e9b-9ffa-7e71cbcc662c" name="Default" comment="phantomJS issue&#10;added git ignore">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/src/app/app.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-animate/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-animate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-animate/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-animate/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-animate/angular-animate.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-animate/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-animate/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-animate/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-bootstrap/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-bootstrap/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-bootstrap/ui-bootstrap-tpls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-bootstrap/ui-bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-bootstrap/ui-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/build/loading-bar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/build/loading-bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/build/loading-bar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/build/loading-bar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/src/loading-bar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-loading-bar/src/loading-bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-mocks/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-mocks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-mocks/angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-mocks/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-mocks/ngAnimateMock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-mocks/ngMock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-mocks/ngMockE2E.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-mocks/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/angular-motion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/angular-motion.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/collapse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/collapse.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/fade-and-scale.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/fade-and-scale.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/fade-and-slide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/fade-and-slide.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/fade.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/fade.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/flip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/flip.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/slide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/dist/modules/slide.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/src/collapse/collapse.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/src/fade-and-scale/fade-and-scale.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/src/fade-and-slide/fade-and-slide.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/src/fade/fade.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/src/flip/flip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-motion/src/slide/slide.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/Gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/demo/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/demo/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/docs/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/draganddrop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-native-dragdrop/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-sanitize/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-sanitize/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-sanitize/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-sanitize/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-sanitize/angular-sanitize.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-sanitize/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-sanitize/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-sanitize/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/changeLog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/dist/smart-table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/dist/smart-table.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/dist/smart-table.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/gulpFile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/bottom.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/smart-table.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/stConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/stPagination.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/stPipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/stSearch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/stSelectRow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/stSort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/stTable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-smart-table/src/top.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-toggle-switch/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-toggle-switch/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-toggle-switch/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-toggle-switch/angular-toggle-switch-bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-toggle-switch/angular-toggle-switch.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-toggle-switch/angular-toggle-switch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-toggle-switch/angular-toggle-switch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-toggle-switch/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-toggle-switch/test/angular-toggle-switch.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-layout/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-layout/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-layout/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-layout/ui-layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-layout/ui-layout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-layout/ui-layout.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/api/angular-ui-router.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/release/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/release/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/stateDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/stateFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/templateFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/urlMatcherFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/urlRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/viewDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular-ui-router/src/viewScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/angular/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bg-splitter/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bg-splitter/LICENCE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bg-splitter/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bg-splitter/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bg-splitter/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bg-splitter/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bg-splitter/js/splitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap-sprockets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/_bootstrap-compass.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/_bootstrap-mincer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/_bootstrap-sprockets.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_badges.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_button-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_component-animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_glyphicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_input-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_modals.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_pager.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_popovers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_progress-bars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-embed.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_thumbnails.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_wells.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_center-block.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_opacity.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_progress-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_reset-filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_tab-focus.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_text-overflow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap-sass-official/sache.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/flow.js/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/flow.js/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/flow.js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/flow.js/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/flow.js/dist/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/flow.js/dist/flow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jasmine-given/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jasmine-given/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jasmine-given/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jasmine-given/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jasmine-given/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jasmine-given/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jasmine-given/vendor/js/jasmine-matcher-wrapper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/ajax/parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/var/isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/data/accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/data/var/data_priv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/data/var/data_user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/src/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/TRANSITION.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/circle.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/dist/js-data-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/dist/js-data-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/dist/js-data-angular.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/karma.start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/adapters/http/create.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/adapters/http/destroy.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/adapters/http/destroyAll.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/adapters/http/find.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/adapters/http/findAll.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/adapters/http/update.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/adapters/http/updateAll.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/create.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/destroy.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/destroyAll.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/find.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/findAll.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/loadRelations.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/refresh.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/save.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/update.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/async_methods/updateAll.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/sync_methods/bindAll.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data-angular/test/datastore/sync_methods/bindOne.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/circle.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/dist/js-data-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/dist/js-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/dist/js-data.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/dist/js-data.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/js-data-16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/js-data-24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/js-data-32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/js-data-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/js-data.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/js-data/mocha.start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/lodash/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/lodash/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/lodash/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/lodash/lodash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/lodash/lodash.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/dist/ng-flow-standalone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/dist/ng-flow-standalone.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/dist/ng-flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/dist/ng-flow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/src/angular-flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/src/directives/btn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/src/directives/drag-events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/src/directives/drop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/src/directives/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/src/directives/img.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/src/directives/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/src/directives/transfers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ng-flow/src/provider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/raf/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/raf/index.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/karma-unit.js" afterPath="$PROJECT_DIR$/build/karma-unit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/src/app/library/library.ctrl.js" afterPath="$PROJECT_DIR$/build/src/app/library/library.ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/src/app/login-screen/login-screen.ctrl.js" afterPath="$PROJECT_DIR$/build/src/app/login-screen/login-screen.ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/src/app/common/services/login.srv.js" afterPath="$PROJECT_DIR$/build/src/app/common/services/login.srv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/src/common/services/modal-service.js" afterPath="$PROJECT_DIR$/build/src/common/services/modal-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/templates-common.js" afterPath="$PROJECT_DIR$/build/templates-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css.map" afterPath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="shop-app.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,23 +472,13 @@
     <favorites_list name="shop-app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57848656">
+    <splitter split-orientation="horizontal" split-proportion="0.4829743">
       <split-first>
         <leaf>
-          <file leaf-file-name="library.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/app/library/library.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.1153846" vertical-offset="0" max-vertical-offset="612">
-                  <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="library.tpl.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/library/library.tpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="432">
+                <state vertical-scroll-proportion="-0.0" vertical-offset="18" max-vertical-offset="432">
                   <caret line="1" column="28" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="28" />
                   <folding />
                 </state>
@@ -49,18 +488,8 @@
           <file leaf-file-name="login-screen.tpl.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/login-screen/login-screen.tpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-16.0" vertical-offset="432" max-vertical-offset="1026">
+                <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1026">
                   <caret line="48" column="33" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="library.ctrl.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/app/library/library.ctrl.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-                  <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -69,7 +498,7 @@
           <file leaf-file-name="general.cnst.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/common/constants/general.cnst.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+                <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
                   <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
                   <folding />
                 </state>
@@ -79,7 +508,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="486">
+                <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="486">
                   <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
                 </state>
@@ -89,7 +518,7 @@
           <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/common/services/constants.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+                <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="306">
                   <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
                   <folding />
                 </state>
@@ -99,18 +528,18 @@
           <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gruntfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="15210">
-                  <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="1408" max-vertical-offset="15210">
+                  <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="karma-unit.tpl.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/karma-unit.tpl.js">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.44444445" vertical-offset="0" max-vertical-offset="1458">
-                  <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="756">
+                  <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -119,11 +548,29 @@
           <file leaf-file-name="login-screen.spec.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/login-screen/login-screen.spec.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
+                  <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.32673267" vertical-offset="0" max-vertical-offset="606">
+                  <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1072" max-vertical-offset="2286">
+                  <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -132,11 +579,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="app.module.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/app/app.module.js">
+          <file leaf-file-name="app.mdl.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/app.mdl.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.7098446" vertical-offset="0" max-vertical-offset="1350">
-                  <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.32329637" vertical-offset="426" max-vertical-offset="1350">
+                  <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -145,7 +592,7 @@
           <file leaf-file-name="application.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/application.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="360">
+                <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="360">
                   <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
                   <folding />
                 </state>
@@ -165,7 +612,7 @@
           <file leaf-file-name="_cloak.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/states/_cloak.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="144">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
@@ -175,7 +622,7 @@
           <file leaf-file-name="_collapsed.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/states/_collapsed.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="324">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
@@ -185,7 +632,7 @@
           <file leaf-file-name="_index.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/states/_index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="324">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
@@ -195,7 +642,7 @@
           <file leaf-file-name="_index.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/modules/_index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.333333" vertical-offset="702" max-vertical-offset="1260">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="1260">
                   <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
                   <folding />
                 </state>
@@ -205,7 +652,7 @@
           <file leaf-file-name="glyphicons-halflings-regular.svg" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/assets/icons/glyphicons-halflings-regular.svg">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5274">
+                <state vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="5274">
                   <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
                   <folding />
                 </state>
@@ -215,7 +662,7 @@
           <file leaf-file-name="ds-entities.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/ds-entities.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
+                <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="648">
                   <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
                   <folding />
                 </state>
@@ -225,6 +672,9 @@
         </leaf>
       </split-second>
     </splitter>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -257,14 +707,160 @@
         <option value="$PROJECT_DIR$/src/scss/application.scss" />
         <option value="$PROJECT_DIR$/src/scss/modules/_index.scss" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/test/karma-unit.tpl.js" />
         <option value="$PROJECT_DIR$/src/app/login-screen/login-screen.spec.js" />
+        <option value="$PROJECT_DIR$/test/karma-unit.tpl.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="JsGruntFileManager">
     <gruntfiles>
       <GruntfileState>
+        <alias-tasks>
+          <alias-task value="build" />
+          <alias-task value="compile" />
+          <alias-task value="default" />
+          <alias-task value="deploy" />
+          <alias-task value="release" />
+          <alias-task value="update-sonar" />
+        </alias-tasks>
+        <multi-tasks>
+          <GruntMultiTaskState>
+            <name>bower-install-simple</name>
+            <targets>
+              <target value="dev" />
+              <target value="prod" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>bump</name>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>bump-commit</name>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>bump-only</name>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>clean</name>
+            <targets>
+              <target value="all" />
+              <target value="vendor" />
+              <target value="index" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>concat</name>
+            <targets>
+              <target value="build_css" />
+              <target value="compile_js" />
+              <target value="compile_vendor" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>connect</name>
+            <targets>
+              <target value="livereload" />
+              <target value="test" />
+              <target value="e2e" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>copy</name>
+            <targets>
+              <target value="build_app_assets" />
+              <target value="build_vendor_assets" />
+              <target value="build_appjs" />
+              <target value="build_vendorjs" />
+              <target value="compile_assets" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>delta</name>
+            <targets>
+              <target value="gruntfile" />
+              <target value="jssrc" />
+              <target value="assets" />
+              <target value="html" />
+              <target value="tpls" />
+              <target value="scss" />
+              <target value="css" />
+              <target value="jsunit" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>html2js</name>
+            <targets>
+              <target value="app" />
+              <target value="common" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>index</name>
+            <targets>
+              <target value="build" />
+              <target value="compile" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>jshint</name>
+            <targets>
+              <target value="src" />
+              <target value="test" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>karma</name>
+            <targets>
+              <target value="unit" />
+              <target value="continuous" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>karmaconfig</name>
+            <targets>
+              <target value="unit" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>ngAnnotate</name>
+            <targets>
+              <target value="build" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>prism</name>
+            <targets>
+              <target value="dev" />
+              <target value="e2e" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>run-compiled</name>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>sass</name>
+            <targets>
+              <target value="build" />
+              <target value="compile" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>sonarRunner</name>
+            <targets>
+              <target value="analysis" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>uglify</name>
+            <targets>
+              <target value="compile" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>watch</name>
+          </GruntMultiTaskState>
+        </multi-tasks>
         <gruntfile-path>$PROJECT_DIR$/Gruntfile.js</gruntfile-path>
       </GruntfileState>
     </gruntfiles>
@@ -274,12 +870,11 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -316,7 +911,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="myShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="shop-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,13 +935,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../intigua-ms.self-pack-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../self-packager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="D:\projects\js\dome9homeTest\shop-app\src\app\library" />
       <recent name="D:\projects\js\dome9homeTest\shop-app\src\app\login-screen" />
     </key>
@@ -389,21 +1000,33 @@
       <option name="number" value="Default" />
       <updated>1440179425821</updated>
     </task>
+    <task id="LOCAL-00001" summary="env fix">
+      <created>1440316235312</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1440316235312</updated>
+    </task>
+    <task id="LOCAL-00002" summary="phantomJS issue&#10;added git ignore">
+      <created>1440318216855</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1440318216855</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5187817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1780822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24143384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,7 +1034,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -431,6 +1056,9 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="env fix" />
+    <MESSAGE value="phantomJS issue&#10;added git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="phantomJS issue&#10;added git ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -451,7 +1079,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.js">
+    <entry file="file://$PROJECT_DIR$/src/app/app.mdl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -463,7 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1170">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,9 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="468">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,7 +1144,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.js">
+    <entry file="file://$PROJECT_DIR$/src/app/app.mdl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -532,20 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="756">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="612">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -630,7 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1170">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,23 +1247,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.7911503" vertical-offset="0" max-vertical-offset="2286">
-          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/library/library.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1153846" vertical-offset="0" max-vertical-offset="612">
+        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="612">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,13 +1261,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/login-screen/login-screen.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.0" vertical-offset="432" max-vertical-offset="1026">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1026">
           <caret line="48" column="33" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="33" />
           <folding />
         </state>
@@ -676,7 +1274,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/library/library.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="432">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="432">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
@@ -686,9 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,7 +1337,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/application.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="360">
+        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="360">
           <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding />
         </state>
@@ -750,7 +1345,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/modules/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333" vertical-offset="702" max-vertical-offset="1260">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="1260">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
@@ -768,7 +1363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,42 +1376,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="486">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="486">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8344371" vertical-offset="0" max-vertical-offset="612">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="15210">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1408" max-vertical-offset="15210">
+          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7098446" vertical-offset="0" max-vertical-offset="1350">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="756">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1072" max-vertical-offset="2286">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/karma-unit.tpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6407767" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.mdl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32329637" vertical-offset="426" max-vertical-offset="1350">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/login-screen/login-screen.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/karma-unit.tpl.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44444445" vertical-offset="0" max-vertical-offset="1458">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.32673267" vertical-offset="0" max-vertical-offset="606">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>

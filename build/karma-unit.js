@@ -28,7 +28,6 @@ module.exports = function(karma) {
             'build/templates-common.js',
             'vendor/angular-mocks/angular-mocks.js',
              ,
-            'src/**/*.module.js',
             'src/**/*.js',
             'test/unit/**/*'
     ],
