@@ -12,6 +12,18 @@
     text-align: center;
     color: darken($brand-warning, 15%);
   }
+
+  .utils-bar{
+    margin: 2px 3px;
+    button{
+      height: 22px;
+      width: 32%;
+      line-height: 5px;
+      span{
+        line-height: 0px;
+      }
+    }
+  }
 }
 
 .card-list{
@@ -28,5 +40,4 @@
         background-color: lighten($outer-space, 8%);
       }
     }
-
 }

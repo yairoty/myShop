@@ -1,5 +1,21 @@
 <div class="product-card">
     <h3 class="card-header">{{vm.item.displayName}}</h3>
+
+    <div class="utils-bar">
+        <button class="btn"
+                ng-click="vm.removeCard()">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+        <button class="btn"
+                ng-click="vm.addCard()">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+        <button class="btn"
+                ng-click="vm.editCard()">
+            <span class="glyphicon glyphicon-pencil"></span>
+        </button>
+    </div>
+
     <div class="btn-group card-list">
         <vertical-nav
                 custom-class="card-list"
