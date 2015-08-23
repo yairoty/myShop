@@ -21,6 +21,5 @@
       validate : validate
     };
   }
-  loginSrv.$inject = ['$http', 'constants'];
 
 })(angular.module('web-app'));

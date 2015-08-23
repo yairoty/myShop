@@ -23,7 +23,7 @@
       deserialize: function(resource, response) {
 
         if (resource.name === 'Category' && response.config.method === 'GET') {
-          return response.data.content;
+          return response.data;
         }
 
         return response.data;

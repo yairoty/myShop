@@ -1,7 +1,7 @@
 (function(module) {
   'use strict';
 
-  module.run(['DS', function(DS) {
+  module.run(function(DS) {
 
     var category = DS.defineResource({
       name: 'Category',
@@ -24,7 +24,7 @@
       }
     });
 
-  }]);
+  });
 
 }(angular.module('web-app')));
 

@@ -25,6 +25,5 @@
         });
     }
   }
-  loginScreenCtrl.$inject = ['loginSrv', '$state'];
 })(angular.module('web-app'));
 

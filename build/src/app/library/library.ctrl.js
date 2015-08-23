@@ -15,6 +15,5 @@
       });
     }
   }
-  libraryCtrl.$inject = ['DS'];
 })(angular.module('web-app'));
 
