@@ -2,17 +2,31 @@
     <h2 class="library-title">library</h2>
     <section class="side-navbar">
         <div>
-            <div><h2>Categoreis</h2></div>
-            <ul ng-repeat="category in vm.categories">
-                <li>
-                    <button class="btn">
-                        <label>{{category.displayName}}</label>
-                    </button>
-                </li>
-            </ul>
+            <div class="side-navbar-title"><h2>Categoreis</h2></div>
+            <vertical-nav
+                    custom-class="side-navbar-container"
+                    on-select="vm.onSelect(selected)"
+                    title-prop="displayName"
+                    list="vm.categories">
+            </vertical-nav>
         </div>
     </section>
     <section class="content">
-        <div><h2>content</h2></div>
+        <!-- yair: move to directive -->
+        <div class="content-container" ng-model="vm.contentContainer">
+            <div ng-repeat="product in vm.contentContainer.products"
+                    class="product-card">
+                <h5 class="card-header">{{product.displayName}}</h5>
+                <div class="btn-group card-list"
+                     ng-repeat="item in product.subProducts">
+                    <label class="btn side-navbar-item"
+                           ng-model="vm.navbarSelected"
+                           btn-radio="{{item}}"
+                           ng-click="vm.contentContainer = vm.navbarSelected">
+                        {{item}}
+                    </label>
+                </div>
+            </div>
+        </div>
     </section>
 </div>

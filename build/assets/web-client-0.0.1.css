@@ -7492,8 +7492,25 @@ body {
     height: 100%;
     width: 10%;
     position: relative;
-    padding: 3px;
-    left: 0; }
+    padding: 3px 0;
+    left: 0;
+    background-color: #f3be74; }
+    .library-container .side-navbar .side-navbar-title h2 {
+      margin: 15px auto;
+      text-align: center;
+      color: #fff; }
+    .library-container .side-navbar .side-navbar-container {
+      width: 100%; }
+      .library-container .side-navbar .side-navbar-container .side-navbar-item {
+        width: 100%;
+        height: 40px;
+        display: block;
+        background-color: #f0ad4e;
+        border-color: #999999;
+        color: #fff;
+        border-radius: 0; }
+        .library-container .side-navbar .side-navbar-container .side-navbar-item.active {
+          background-color: #3b4a5a; }
   .library-container .content {
     float: right;
     background-color: #2b3641;

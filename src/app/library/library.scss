@@ -13,8 +13,33 @@
     height: 100%;
     width: 10%;
     position: relative;
-    padding: 3px;
+    padding: 3px 0;
     left:0;
+    background-color: lighten($brand-warning, 8%);
+
+    .side-navbar-title{
+      h2{
+        margin: 15px auto;
+        text-align: center;
+        color: $btn-info-color;
+      }
+    }
+
+    .side-navbar-container{
+      width: 100%;
+      .side-navbar-item{
+        width: 100%;
+        height: 40px;
+        display: block;
+        background-color: $brand-warning;
+        border-color: palette(grey);
+        color: $btn-info-color;
+        border-radius: 0;
+        &.active{
+          background-color: lighten($outer-space, 8%);
+        }
+      }
+    }
   }
 
   .content{
@@ -24,6 +49,4 @@
     width: 90%;
     height: 100%;
   }
-
-
 }
