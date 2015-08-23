@@ -1,0 +1,122 @@
+{
+  "requestUrl": "/rest/experimental/category",
+  "contentType": "application/javascript",
+  "statusCode": 200,
+  "data": [
+      {"displayName":"Electricity",
+        "isActive":true,
+        "uId":1,
+        "products":[
+          {"uId":1,
+           "displayName":"Coffee Machines",
+           "subProducts":["FilterMachine","Mekineta","percolator"]
+          },
+          {
+            "uId":2,
+            "displayName":"Wash Machines",
+            "subProducts":["frontDoor","TopDoor","integral"]
+
+          },
+          {
+            "uId":3,
+            "displayName":"Sound System",
+            "subProducts":["stereo","stereoBar","blueTooth","players","PL","resiver"]
+          },
+          {
+            "uId":4,
+            "displayName":"Video",
+            "subProducts":["television","screeners","projectors"]
+
+          },
+          {
+            "uId":5,
+            "displayName":"Photography",
+            "subProducts":["videoCamera","SLR","lens","compact"]
+
+          },
+          {
+            "uId":6,
+            "displayName":"Custom",
+            "subProducts":["chargers","remoteControllers"]
+
+          }
+        ]
+      },
+      {
+        "displayName":"Computer",
+        "isActive":true,
+        "uId":2,
+        "products":[
+          {
+            "uId":7,
+            "displayName":"Laptop",
+            "subProducts":["apple","dell","asus","lenovo"]
+
+          },
+          {
+            "uId":8,
+            "displayName":"PC",
+            "subProducts":["apple","gamers","dell","asus"]
+
+          },
+          {
+            "uId":9,
+            "displayName":"Storage",
+            "subProducts":["HD","USB","backupTape","NASserver"]
+
+          },
+          {
+            "uId":10,
+            "displayName":"Tablet",
+            "subProducts":["android","windows","IOS"]
+
+          }
+        ]
+      },
+      {
+        "displayName":"Home",
+        "isActive":false,
+        "uId":3,
+        "products":[
+          {
+            "uId":11,
+            "displayName":"Furnichers",
+            "subProducts":["Table","chair","waterTap"]
+          },
+          {
+            "uId":12,
+            "displayName":"Kitchen",
+            "subProducts":["pots","dishes","galsses"]
+            },
+          {
+            "uId":13,
+            "displayName":"Pool",
+            "subProducts":["poolPump","poolCovers","yellowDuck"]
+          }
+        ]
+      },
+      {
+        "uId":4,
+        "displayName":"Category-4",
+        "isActive":true,
+        "products":[
+          {
+            "uId":14,
+            "displayName":"Product1",
+            "subProducts":["subProduct1.1","subProduct1.2","subProduct1.3"]
+          },
+          {
+            "uId":15,
+            "displayName":"Product2",
+            "subProducts":["subProduct2.1","subProduct2.2","subProduct2.3"]
+          },
+          {
+            "uId":16,
+            "displayName":"Product3",
+            "subProducts":["subProduct3.1","subProduct3.2"]
+          }
+        ]
+      }
+    ]
+
+}

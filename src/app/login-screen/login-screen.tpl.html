@@ -1,0 +1,52 @@
+<div class="login-screen-container">
+
+    <h2 class="login-screen-header">Log In</h2>
+
+    <div class="login-screen-form">
+        <form class="form-horizontal"
+              name="vm.loginForm"
+              novalidate>
+
+            <div class="form-group"
+                 ng-class="{'has-error': vm.loginForm.usrName.$invalid && vm.loginForm.usrName.$dirty}">
+                <label class="control-label">User Name</label>
+                <input type="text"
+                       class="form-control invalid-input"
+                       name="usrName"
+                       ng-model="vm.data.usrName"
+                       ng-pattern="/^[A-Za-z0-9-]+$/"
+                       placeholder="enter name"
+                       required>
+
+                <span ng-show="vm.loginForm.usrName.$invalid && vm.loginForm.usrName.$dirty">
+                    use single word, text or digits
+                </span>
+            </div>
+
+            <div class="form-group"
+                 ng-class="{'has-error': vm.loginForm.usrPass.$invalid && vm.loginForm.usrPass.$dirty}">
+                <label class="control-label">Password</label>
+                <input type="password"
+                       class="form-control"
+                       ng-class="{'invalid-input': vm.loginForm.usrPass.$invalid && vm.loginForm.usrPass.$dirty}"
+                       name="usrPass"
+                       ng-model="vm.data.usrPass"
+                       ng-pattern="/^[A-Za-z0-9-]+$/"
+                       placeholder="enter password"
+                       required>
+                <span ng-show="vm.loginForm.usrPass.$invalid && vm.loginForm.usrPass.$dirty">
+                    use single word, text or digits
+                </span>
+            </div>
+        </form>
+    </div>
+    <div class="login-screen-btn">
+
+        <button type="submit"
+                class="form-group btn"
+                ng-click="vm.validateUsr()"
+                ng-disabled="!vm.loginForm.$valid">
+            <label>Submit</label>
+        </button>
+    </div>
+</div>

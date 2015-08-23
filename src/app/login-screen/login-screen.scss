@@ -1,0 +1,55 @@
+body {
+  background: #f4f7f8;
+}
+
+.login-screen-container {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 5px;
+
+  .login-screen-header{
+    color: palette(black ,'light');
+    font-weight: 300;
+    text-align: center;
+    margin: 5px auto;
+  }
+
+  .login-screen-form{
+    margin: 10px auto;
+
+    .form-group{
+      padding-top: 10px;
+    }
+
+    label{
+      @include make-md-column(5);
+    }
+    input{
+      @include make-md-column(3);
+
+    }
+    span{
+      @include make-md-column(3);
+      line-height: -15px;
+      color: $alert-danger-text;
+    }
+  }
+
+  .login-screen-btn{
+    position: relative;
+    margin: 0 auto;
+    width: 15%;
+    height: 40px;
+    button{
+      width: 100%;
+      height: 100%;
+      background-color: #004444;
+      color: #ffffff;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+  }
+
+}

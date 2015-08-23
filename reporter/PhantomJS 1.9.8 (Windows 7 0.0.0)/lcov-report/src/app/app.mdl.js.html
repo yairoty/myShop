@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for ./src/app/app.mdl.js</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../prettify.css">
+    <link rel="stylesheet" href="../../base.css">
+    <style type='text/css'>
+        div.coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class="header low">
+    <h1>Code coverage report for <span class="entity">./src/app/app.mdl.js</span></h1>
+    <h2>
+        Statements: <span class="metric">30.77% <small>(4 / 13)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 4)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">25% <small>(1 / 4)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">30.77% <small>(4 / 13)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
+    </h2>
+    <div class="path"><a href="../../index.html">All files</a> &#187; <a href="index.html">./src/app/</a> &#187; app.mdl.js</div>
+</div>
+<div class="body">
+<pre><table class="coverage">
+<tr><td class="line-count">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">(function(app) {
+  'use strict';
+&nbsp;
+  app.config(appConfig);
+&nbsp;
+<span class="fstat-no" title="function not covered" >  function appConfig($stateProvider,</span>
+                     $urlRouterProvider,
+                     DSProvider,
+                     cfpLoadingBarProvider) {
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    cfpLoadingBarProvider.includeSpinner = true;</span>
+<span class="cstat-no" title="statement not covered" >    cfpLoadingBarProvider.includeBar = false;</span>
+<span class="cstat-no" title="statement not covered" >    cfpLoadingBarProvider.latencyThreshold = 100;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    DSProvider.defaults = {</span>
+      basePath: 'rest/experimental',
+      log: false,
+      error: false,
+      useClass: true,
+      findInverseLinks: false,
+      findHasMany: false,
+      findBelongsTo: false,
+      deserialize: <span class="fstat-no" title="function not covered" >function(resource, response) {</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        if (resource.name === 'Category' &amp;&amp; response.config.method === 'GET') {</span>
+<span class="cstat-no" title="statement not covered" >          return response.data.content;</span>
+        }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        return response.data;</span>
+      }
+    };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    $stateProvider.state('app', {</span>
+      abstract: true,
+      templateUrl: 'app.tpl.html'
+    }).state('app.login', {
+      parent: 'app',
+      url: '/login',
+      template: '&lt;login-screen&gt;&lt;/login-screen&gt;'
+    }).state('app.library', {
+      parent: 'app',
+      url: '/library',
+      template: '&lt;library&gt;&lt;/library&gt;'
+    }).state('app.library.item', {
+      parent: 'app',
+      url: '/library/item',
+      template: '&lt;div&gt;&lt;h1&gt;library item screen&lt;/h1&gt;&lt;/div&gt;'
+    });
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    $urlRouterProvider.otherwise('/login');</span>
+  }
+&nbsp;
+  app.run(<span class="fstat-no" title="function not covered" >function() {</span>
+  });
+&nbsp;
+}
+(angular.module('web-app', ['templates-app',
+                            'templates-common',
+                            'ngAnimate',
+                            'ngSanitize',
+                            'ui.bootstrap',
+                            'ui.router',
+                            'ui.layout',
+                            'bgDirectives',
+                            'angular-loading-bar',
+                            'js-data',
+                            'flow'])));
+&nbsp;
+&nbsp;
+&nbsp;</pre></td></tr>
+</table></pre>
+
+</div>
+<div class="footer">
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sun Aug 23 2015 09:21:35 GMT+0300 (Jerusalem Daylight Time)</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<div class="library-container">
+    <h2 class="library-title">library</h2>
+    <section class="side-navbar">
+        <div>
+            <div><h2>Categoreis</h2></div>
+            <ul ng-repeat="category in vm.categories">
+                <li>
+                    <button class="btn">
+                        <label>{{category.displayName}}</label>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="content">
+        <div><h2>content</h2></div>
+    </section>
+</div>

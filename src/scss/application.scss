@@ -1,0 +1,14 @@
+$icon-font-path: "./icons/";
+@import "../../vendor/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+
+@import "utilities/index";
+@import "base/index";
+@import "layout/index";
+@import "modules/index";
+@import "states/index";
+@import "themes/poly";
+
+//src files
+@import "../app/app.scss";
+@import "../app/login-screen/login-screen";
+@import "../app/library/library";

@@ -1,0 +1,9 @@
+{
+  "requestUrl": "/rest/authentication",
+  "contentType": "application/javascript",
+  "statusCode": 200,
+  "data": {
+      "isAuthValid": true,
+      "authToken":"abc123"
+    }
+}
