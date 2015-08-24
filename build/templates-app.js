@@ -34,12 +34,11 @@ angular.module("common/component/product-card/product-card.tpl.html", []).run(["
     "\n" +
     "    <div class=\"btn-group card-list\">\n" +
     "        <vertical-nav\n" +
-    "                editable=\"true\"\n" +
     "                custom-class=\"card-list\"\n" +
     "                title-prop=\"{{vm.titleProp}}\"\n" +
     "                on-select=\"vm.onSelect(option)\"\n" +
     "                list=\"vm.item.subProducts\"\n" +
-    "                resource-name=\"\">\n" +
+    "                action-icon=\"vm.listIcon\">\n" +
     "        </vertical-nav>\n" +
     "    </div>\n" +
     "</div>");
@@ -56,6 +55,7 @@ angular.module("common/component/vertical-nav/vertical-nav.tpl.html", []).run(["
     "           ng-click=\"vm.onSelect({option: category, ind:$index})\">\n" +
     "            <!--TODO: angular 1.3.18 bug? $parent needed to get to this-->\n" +
     "            {{$parent.vm.displayTitle(category)}}\n" +
+    "        <span class=\"glyphicon\" ng-class=\"$parent.vm.actionIcon\"></span>\n" +
     "    </label>\n" +
     "</div>");
 }]);

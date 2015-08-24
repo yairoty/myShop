@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0b9b8346-bd04-4e9b-9ffa-7e71cbcc662c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js" afterPath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss" afterPath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html" afterPath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/templates-app.js" afterPath="$PROJECT_DIR$/build/templates-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js" afterPath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html" afterPath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css.map" afterPath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css" afterPath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shop-app.iws" />
@@ -32,18 +39,18 @@
           <file leaf-file-name="product-card.tpl.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="612">
-                  <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+                <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="594">
+                  <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="product-card.ctrl.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="product-card.ctrl.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.30026808" vertical-offset="802" max-vertical-offset="1548">
-                  <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1800">
+                  <caret line="56" column="21" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -53,7 +60,7 @@
             <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-                  <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+                  <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -73,7 +80,7 @@
             <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <caret line="16" column="43" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -89,10 +96,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="vertical-nav.tpl.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="vertical-nav.tpl.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="288">
+                <state vertical-scroll-proportion="0.20027816" vertical-offset="0" max-vertical-offset="719">
                   <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
                   <folding />
                 </state>
@@ -113,11 +120,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="library.tpl.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="product-card.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.7708628" vertical-offset="319" max-vertical-offset="1026">
+                  <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="library.tpl.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/library/library.tpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45062587" vertical-offset="0" max-vertical-offset="719">
-                  <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+                <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="540">
+                  <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -146,8 +163,8 @@
           <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="15624">
-                  <caret line="19" column="11" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="11" />
+                <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="15624">
+                  <caret line="21" column="13" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -205,18 +222,18 @@
         <option value="$PROJECT_DIR$/src/app/library/library.scss" />
         <option value="$PROJECT_DIR$/src/scss/application.scss" />
         <option value="$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json" />
-        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss" />
         <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js" />
-        <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js" />
-        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html" />
         <option value="$PROJECT_DIR$/src/app/common/services/constants.js" />
         <option value="$PROJECT_DIR$/src/app/common/services/filters.js" />
         <option value="$PROJECT_DIR$/src/app/ds-entities.js" />
         <option value="$PROJECT_DIR$/src/app/library/library.ctrl.js" />
         <option value="$PROJECT_DIR$/src/app/library/library.tpl.html" />
         <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.drv.js" />
-        <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html" />
+        <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js" />
         <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js" />
+        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html" />
+        <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html" />
+        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss" />
       </list>
     </option>
   </component>
@@ -1063,15 +1080,21 @@
       <option name="project" value="LOCAL" />
       <updated>1440424851415</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="choose radio btn by id">
+      <created>1440425627822</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1440425627822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19898477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19898477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1117,7 +1140,8 @@
     <MESSAGE value="added utils bar for cards" />
     <MESSAGE value="added add / remove to product-card" />
     <MESSAGE value="added remove by index  in product-card" />
-    <option name="LAST_COMMIT_MESSAGE" value="added remove by index  in product-card" />
+    <MESSAGE value="choose radio btn by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="choose radio btn by id" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1382,14 +1406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7199434" vertical-offset="157" max-vertical-offset="882">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reporter/PhantomJS 1.9.8 (Windows 7 0.0.0)/lcov-report/src/app/compliance/common/filter-accordion/filter.cnst.js.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1674">
@@ -1402,22 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36193028" vertical-offset="0" max-vertical-offset="746">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="15624">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/library/library.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.346154" vertical-offset="0" max-vertical-offset="1026">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1446,22 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/library/library.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45062587" vertical-offset="0" max-vertical-offset="719">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="3528">
@@ -1478,14 +1462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.drv.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
@@ -1494,26 +1470,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js">
+    <entry file="file://$PROJECT_DIR$/src/app/library/library.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="540">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html">
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="288">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="15624">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/library/library.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.346154" vertical-offset="0" max-vertical-offset="1026">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30026808" vertical-offset="802" max-vertical-offset="1548">
-          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1800">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="594">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7708628" vertical-offset="319" max-vertical-offset="1026">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20027816" vertical-offset="0" max-vertical-offset="719">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
           <folding />
         </state>
       </provider>

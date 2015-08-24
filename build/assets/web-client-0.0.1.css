@@ -7552,5 +7552,11 @@ body {
     .card-list .side-navbar-item.active {
       background-color: #2390b0;
       color: #0b0b0b; }
+    .card-list .side-navbar-item span {
+      float: left;
+      color: #252525;
+      transition: all 1s;
+      font-weight: 700;
+      font-size: 1.375em; }
 
 /*# sourceMappingURL=web-client-0.0.1.css.map */

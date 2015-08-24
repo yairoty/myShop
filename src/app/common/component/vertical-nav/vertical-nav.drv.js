@@ -9,7 +9,7 @@
         customClass:'@',
         onSelect:'&',
         titleProp:'@',
-        editable:'=?'
+        actionIcon:'='
       },
       restrict: 'E',
       controller: 'verticalNavCtrl',

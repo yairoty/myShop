@@ -3,11 +3,13 @@
 
   module.controller('productCardCtrl', productCardCtrl);
 
-  function productCardCtrl($compile, $element, $scope) {
+  function productCardCtrl() {
 
     var vm = this,
         onSelectAction,
         tempId;
+
+    vm.listIcon='';
 
     vm.onSelect = onSelect;
     vm.cardAction = cardAction;
@@ -22,8 +24,8 @@
 
     function onSelect(object){
       //TODO: default --> open modal
-      switch (onSelectAction){
 
+      switch (onSelectAction){
         case 'default':
           //showModal(object.option);
           defaultOnSelectAction();
@@ -43,10 +45,22 @@
 
     function defaultOnSelectAction(){
       onSelectAction = 'default';
+      vm.listIcon='';
     }
 
     function cardAction(action){
-      onSelectAction = action;
+      if(onSelectAction === action){
+        defaultOnSelectAction();
+      }else{
+        onSelectAction = action;
+        if(action === 'delete'){
+          vm.listIcon='glyphicon-remove-circle';
+        }else if(action === 'edit'){
+          vm.listIcon='glyphicon-pencil';
+        }
+
+
+      }
     }
 
     function editCard(entity){
