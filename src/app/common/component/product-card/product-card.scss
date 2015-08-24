@@ -43,9 +43,9 @@
       }
       span{
         float: left;
-        color: palette(black, 'light');
+        color: $brand-danger;
         transition: all 1s ;
-        font-weight: 700;
+        font-weight: 500;
         font-size: em(22px);
       }
     }
