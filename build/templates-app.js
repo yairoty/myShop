@@ -53,7 +53,7 @@ angular.module("common/component/vertical-nav/vertical-nav.tpl.html", []).run(["
     "    <label class=\"btn side-navbar-item\"\n" +
     "           ng-model=\"vm.navbarSelected\"\n" +
     "           btn-radio=\"{{category}}\"\n" +
-    "           ng-click=\"vm.onSelect({option: category})\">\n" +
+    "           ng-click=\"vm.onSelect({option: category, ind:$index})\">\n" +
     "            <!--TODO: angular 1.3.18 bug? $parent needed to get to this-->\n" +
     "            {{$parent.vm.displayTitle(category)}}\n" +
     "    </label>\n" +

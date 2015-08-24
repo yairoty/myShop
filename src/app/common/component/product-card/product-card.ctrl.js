@@ -34,7 +34,7 @@
           break;
 
         case 'delete':
-          deleteCard(object.option);
+          deleteCard(object.option, object.ind);
           defaultOnSelectAction();
           break;
       }
@@ -66,10 +66,17 @@
       defaultOnSelectAction();
     }
 
-    function deleteCard(entity){
-      _.remove(vm.item.subProducts, function(target) {
-        return target.uId === entity.uId;
-      });
+    function deleteCard(entity, ind){
+      //if persistence case
+      if(entity.uId){
+        _.remove(vm.item.subProducts, function(target) {
+          return target.uId === entity.uId;
+        });
+      }else{
+        //vm.itemIdx
+        vm.item.subProducts.splice(ind, 1);
+      }
+
     }
   }
 })(angular.module('web-app'));
