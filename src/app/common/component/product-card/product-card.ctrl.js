@@ -85,6 +85,32 @@
         vm.item.subProducts.splice(ind, 1);
       }
     }
+
+    function showModal(){
+      /*var modalOptions = {
+        actionButtonText: 'Cancel',
+        headerText: vm.data.name,
+        action: constContextActions.eventAction,
+        actionText: 'Test',
+        payload: dataCopy
+      };
+      mainDialogSrv.showDialog(modalOptions);*/
+
+      /*return  modalService.showModal({
+        backdrop: true,
+        backdropClass: 'light-opacity',
+        keyboard: true,
+        modalFade: true,
+        controller: 'Ctrl',
+        controllerAs: 'vm',
+        templateUrl: '.tpl.html',
+        resolve: {
+          modalOptions: function() {
+            return modalOptions;
+          }
+        }
+      });*/
+    }
   }
 })(angular.module('web-app'));
 

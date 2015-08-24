@@ -3,7 +3,7 @@
 
   module.controller('libraryCtrl', libraryCtrl);
 
-  function libraryCtrl(DS, $scope) {
+  function libraryCtrl(DS) {
 
     var vm = this;
 
@@ -16,7 +16,6 @@
 
     function init() {
       DS.findAll('Category').then(function(response){
-        //TODO use DS.loadRelations ?
         vm.categories = response;
       });
     }
