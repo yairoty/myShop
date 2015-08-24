@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b9b8346-bd04-4e9b-9ffa-7e71cbcc662c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js" afterPath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/templates-app.js" afterPath="$PROJECT_DIR$/build/templates-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html" afterPath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shop-app.iws" />
@@ -44,8 +42,8 @@
           <file leaf-file-name="product-card.ctrl.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8203753" vertical-offset="756" max-vertical-offset="1602">
-                  <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+                <state vertical-scroll-proportion="0.30026808" vertical-offset="802" max-vertical-offset="1548">
+                  <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -94,8 +92,8 @@
           <file leaf-file-name="vertical-nav.tpl.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="288">
-                  <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="55" />
+                <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="288">
+                  <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -1059,15 +1057,21 @@
       <option name="project" value="LOCAL" />
       <updated>1440423832597</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added remove by index  in product-card">
+      <created>1440424851415</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1440424851415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19898477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19898477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1112,7 +1116,8 @@
     <MESSAGE value="changed model" />
     <MESSAGE value="added utils bar for cards" />
     <MESSAGE value="added add / remove to product-card" />
-    <option name="LAST_COMMIT_MESSAGE" value="added add / remove to product-card" />
+    <MESSAGE value="added remove by index  in product-card" />
+    <option name="LAST_COMMIT_MESSAGE" value="added remove by index  in product-card" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1465,14 +1470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="288">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/common/services/constants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
@@ -1505,10 +1502,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="288">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8203753" vertical-offset="756" max-vertical-offset="1602">
-          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.30026808" vertical-offset="802" max-vertical-offset="1548">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
           <folding />
         </state>
       </provider>

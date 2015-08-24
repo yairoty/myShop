@@ -3,10 +3,11 @@
 
   module.controller('productCardCtrl', productCardCtrl);
 
-  function productCardCtrl() {
+  function productCardCtrl($compile, $element, $scope) {
 
     var vm = this,
-        onSelectAction;
+        onSelectAction,
+        tempId;
 
     vm.onSelect = onSelect;
     vm.cardAction = cardAction;
@@ -16,7 +17,7 @@
 
     function init() {
       onSelectAction='default';
-      console.log(vm.titleProp);
+      tempId=0;
     }
 
     function onSelect(object){
@@ -38,8 +39,6 @@
           defaultOnSelectAction();
           break;
       }
-
-      onSelectAction = 'default';
     }
 
     function defaultOnSelectAction(){
@@ -56,7 +55,7 @@
 
     function addCard(){
       var vanilaObj = {
-        uId: null,
+        uId: 'tempID_'+tempId++,
         name: 'new entity',
         price: 0
       };
@@ -67,16 +66,14 @@
     }
 
     function deleteCard(entity, ind){
-      //if persistence case
+      //if persistence case:
       if(entity.uId){
         _.remove(vm.item.subProducts, function(target) {
           return target.uId === entity.uId;
         });
       }else{
-        //vm.itemIdx
         vm.item.subProducts.splice(ind, 1);
       }
-
     }
   }
 })(angular.module('web-app'));
