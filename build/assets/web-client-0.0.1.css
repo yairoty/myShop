@@ -7554,9 +7554,9 @@ body {
       color: #0b0b0b; }
     .card-list .side-navbar-item span {
       float: left;
-      color: #252525;
+      color: #d9534f;
       transition: all 1s;
-      font-weight: 700;
+      font-weight: 500;
       font-size: 1.375em; }
 
 /*# sourceMappingURL=web-client-0.0.1.css.map */

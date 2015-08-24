@@ -23,22 +23,18 @@
     }
 
     function onSelect(object){
-      //TODO: default --> open modal
-
       switch (onSelectAction){
         case 'default':
-          //showModal(object.option);
+          //TODO: default --> open modal
           defaultOnSelectAction();
           break;
 
         case 'edit':
           editCard(object.option);
-          defaultOnSelectAction();
           break;
 
         case 'delete':
           deleteCard(object.option, object.ind);
-          defaultOnSelectAction();
           break;
       }
     }
