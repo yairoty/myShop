@@ -7,6 +7,10 @@
     URL: {
       basePath: 'rest',
       versionPath: 'experimental'
+    },
+    ENTITY:{
+      Products:'Products',
+      SubProducts:'SubProducts'
     }
   });
 })(angular.module('web-app'));

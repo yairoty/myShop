@@ -3,7 +3,7 @@
 
   module.controller('libraryCtrl', libraryCtrl);
 
-  function libraryCtrl(DS) {
+  function libraryCtrl(DS, $scope) {
 
     var vm = this;
 
@@ -16,6 +16,7 @@
 
     function init() {
       DS.findAll('Category').then(function(response){
+        //TODO use DS.loadRelations ?
         vm.categories = response;
       });
     }
@@ -25,7 +26,7 @@
     }
 
     function onSelect(option){
-      vm.cardList = option.option.products;
+      vm.cardObject = option.option;
     }
   }
 })(angular.module('web-app'));

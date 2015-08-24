@@ -16,11 +16,30 @@ angular.module("common/component/product-card/product-card.tpl.html", []).run(["
   $templateCache.put("common/component/product-card/product-card.tpl.html",
     "<div class=\"product-card\">\n" +
     "    <h3 class=\"card-header\">{{vm.item.displayName}}</h3>\n" +
+    "\n" +
+    "    <div class=\"utils-bar\">\n" +
+    "        <button class=\"btn\"\n" +
+    "                ng-click=\"vm.cardAction('delete')\">\n" +
+    "            <span class=\"glyphicon glyphicon-minus\"></span>\n" +
+    "        </button>\n" +
+    "        <button class=\"btn\"\n" +
+    "                ng-click=\"vm.addCard()\">\n" +
+    "            <span class=\"glyphicon glyphicon-plus\"></span>\n" +
+    "        </button>\n" +
+    "        <button class=\"btn\"\n" +
+    "                ng-click=\"vm.cardAction('edit')\">\n" +
+    "            <span class=\"glyphicon glyphicon-pencil\"></span>\n" +
+    "        </button>\n" +
+    "    </div>\n" +
+    "\n" +
     "    <div class=\"btn-group card-list\">\n" +
     "        <vertical-nav\n" +
+    "                editable=\"true\"\n" +
     "                custom-class=\"card-list\"\n" +
+    "                title-prop=\"{{vm.titleProp}}\"\n" +
     "                on-select=\"vm.onSelect(option)\"\n" +
-    "                list=\"vm.item.subProducts\">\n" +
+    "                list=\"vm.item.subProducts\"\n" +
+    "                resource-name=\"\">\n" +
     "        </vertical-nav>\n" +
     "    </div>\n" +
     "</div>");
@@ -56,10 +75,13 @@ angular.module("library/library.tpl.html", []).run(["$templateCache", function($
     "            </vertical-nav>\n" +
     "        </div>\n" +
     "    </section>\n" +
+    "\n" +
     "    <section class=\"content\">\n" +
-    "        <div class=\"content-container\" ng-repeat=\"content in vm.cardList\">\n" +
+    "        <div class=\"content-container\" ng-repeat=\"content in vm.cardObject.products\">\n" +
     "            <product-card\n" +
-    "                    item=\"content\">\n" +
+    "                    item=\"content\"\n" +
+    "                    title-prop=\"name\"\n" +
+    "                    entity=\"{{'ENTITY.SubProducts' | getContstant}}\">\n" +
     "            </product-card>\n" +
     "        </div>\n" +
     "    </section>\n" +

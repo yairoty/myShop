@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9b8346-bd04-4e9b-9ffa-7e71cbcc662c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/common/services/filters.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json" afterPath="$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/src/app/common/services/constants.js" afterPath="$PROJECT_DIR$/build/src/app/common/services/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/services/constants.js" afterPath="$PROJECT_DIR$/src/app/common/services/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/src/app/ds-entities.js" afterPath="$PROJECT_DIR$/build/src/app/ds-entities.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/ds-entities.js" afterPath="$PROJECT_DIR$/src/app/ds-entities.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/src/app/library/library.ctrl.js" afterPath="$PROJECT_DIR$/build/src/app/library/library.ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/library/library.ctrl.js" afterPath="$PROJECT_DIR$/src/app/library/library.ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/library/library.tpl.html" afterPath="$PROJECT_DIR$/src/app/library/library.tpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js" afterPath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js" afterPath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.drv.js" afterPath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.drv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss" afterPath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html" afterPath="$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/templates-app.js" afterPath="$PROJECT_DIR$/build/templates-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js" afterPath="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css.map" afterPath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css" afterPath="$PROJECT_DIR$/build/assets/web-client-0.0.1.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -30,14 +43,34 @@
     <favorites_list name="shop-app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50583655">
+    <splitter split-orientation="horizontal" split-proportion="0.5007907">
       <split-first>
         <leaf>
-          <file leaf-file-name="product-card.ctrl.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="product-card.tpl.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="612">
+                  <caret line="24" column="41" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="product-card.ctrl.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-                  <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.48257372" vertical-offset="540" max-vertical-offset="1476">
+                  <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="vertical-nav.drv.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+                  <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -46,18 +79,8 @@
           <file leaf-file-name="product-card.drv.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.drv.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-                  <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="product-card.tpl.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="270">
-                  <caret line="5" column="38" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="38" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+                  <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -67,7 +90,7 @@
             <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-                  <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -76,8 +99,8 @@
           <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/common/services/constants.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-                  <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+                  <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -86,18 +109,18 @@
           <file leaf-file-name="vertical-nav.tpl.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="288">
-                  <caret line="8" column="37" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="37" />
+                <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="288">
+                  <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json" pinned="false" current-in-tab="true">
+          <file leaf-file-name="GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9721836" vertical-offset="1371" max-vertical-offset="2286">
-                  <caret line="115" column="56" selection-start-line="115" selection-start-column="56" selection-end-line="115" selection-end-column="56" />
+                <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="3528">
+                  <caret line="14" column="45" selection-start-line="12" selection-start-column="12" selection-end-line="14" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -107,21 +130,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="product-card.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss">
+          <file leaf-file-name="library.tpl.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/library/library.tpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.12729844" vertical-offset="0" max-vertical-offset="707">
-                  <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.1752434" vertical-offset="0" max-vertical-offset="719">
+                  <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="library.tpl.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/app/library/library.tpl.html">
+          <file leaf-file-name="library.drv.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/library/library.drv.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="486">
-                  <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+                  <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -140,8 +163,8 @@
           <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="38.666668" vertical-offset="1404" max-vertical-offset="15624">
-                  <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="14" />
+                <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="15624">
+                  <caret line="19" column="11" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -150,8 +173,8 @@
           <file leaf-file-name="library.ctrl.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/library/library.ctrl.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-                  <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+                  <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -186,10 +209,8 @@
         <option value="$PROJECT_DIR$/mocks/dev/POST_vmanage-server_rest_authentication_43d3106ac76254dbd96ba92cd6bd0e5f59660787.json" />
         <option value="$PROJECT_DIR$/mocks/dev/GET_vmanage-server_rest_experimental_category_0704fbdee1d8222318e7557ba1ee8a4dd78dff7c.json.404" />
         <option value="$PROJECT_DIR$/mocks/dev/POST_rest_authentication_973561fbceadb081bded014699d9a0b87273b1ba.json.404" />
-        <option value="$PROJECT_DIR$/src/app/ds-entities.js" />
         <option value="$PROJECT_DIR$/src/app/common/services/login.srv.js" />
         <option value="$PROJECT_DIR$/src/common/constants/general.cnst.js" />
-        <option value="$PROJECT_DIR$/src/app/common/services/constants.js" />
         <option value="$PROJECT_DIR$/src/scss/modules/_index.scss" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/app/login-screen/login-screen.spec.js" />
@@ -197,19 +218,22 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/app/app.mdl.js" />
         <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.scss" />
-        <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/src/app/library/library.scss" />
-        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.drv.js" />
-        <option value="$PROJECT_DIR$/src/app/library/library.ctrl.js" />
         <option value="$PROJECT_DIR$/src/scss/application.scss" />
-        <option value="$PROJECT_DIR$/src/app/library/library.tpl.html" />
         <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html" />
-        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss" />
-        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html" />
-        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js" />
-        <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js" />
         <option value="$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json" />
+        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss" />
+        <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js" />
+        <option value="$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js" />
+        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html" />
+        <option value="$PROJECT_DIR$/src/app/common/services/constants.js" />
+        <option value="$PROJECT_DIR$/src/app/common/services/filters.js" />
+        <option value="$PROJECT_DIR$/src/app/ds-entities.js" />
+        <option value="$PROJECT_DIR$/src/app/library/library.ctrl.js" />
+        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.drv.js" />
+        <option value="$PROJECT_DIR$/src/app/library/library.tpl.html" />
+        <option value="$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js" />
       </list>
     </option>
   </component>
@@ -370,6 +394,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
     <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="1056" />
@@ -680,6 +705,10 @@
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -738,6 +767,166 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="product-card" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhantomJS 1.9.8 (Windows 7 0.0.0)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhantomJS 1.9.8 (Windows 7 0.0.0)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcov-report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhantomJS 1.9.8 (Windows 7 0.0.0)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcov-report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhantomJS 1.9.8 (Windows 7 0.0.0)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcov-report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compliance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhantomJS 1.9.8 (Windows 7 0.0.0)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcov-report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compliance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter-accordion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -868,15 +1057,27 @@
       <option name="project" value="LOCAL" />
       <updated>1440338441057</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed model">
+      <created>1440340518041</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1440340518041</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added utils bar for cards">
+      <created>1440342304529</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1440342304529</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="1920" y="24" width="1920" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19898477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19898477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -918,20 +1119,15 @@
     <MESSAGE value="deserialize change" />
     <MESSAGE value="added navbar directive" />
     <MESSAGE value="added product card container" />
-    <option name="LAST_COMMIT_MESSAGE" value="added product card container" />
+    <MESSAGE value="changed model" />
+    <MESSAGE value="added utils bar for cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="added utils bar for cards" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/login-screen/login-screen.drv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="396">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.mdl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
@@ -1166,30 +1362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.drv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/library/library.drv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26086956" vertical-offset="0" max-vertical-offset="759">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21343873" vertical-offset="0" max-vertical-offset="759">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.mdl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54545456" vertical-offset="54" max-vertical-offset="1350">
@@ -1206,14 +1378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ds-entities.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14229248" vertical-offset="0" max-vertical-offset="759">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3631124" vertical-offset="0" max-vertical-offset="694">
@@ -1222,18 +1386,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html">
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="288">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.7199434" vertical-offset="157" max-vertical-offset="882">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reporter/PhantomJS 1.9.8 (Windows 7 0.0.0)/lcov-report/src/app/compliance/common/filter-accordion/filter.cnst.js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1674">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/services/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36193028" vertical-offset="0" max-vertical-offset="746">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/services/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="38.666668" vertical-offset="1404" max-vertical-offset="15624">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="14" />
+        <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="15624">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1246,50 +1434,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/library/library.tpl.html">
+    <entry file="file://$PROJECT_DIR$/src/app/library/library.drv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="486">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/library/library.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/services/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12729844" vertical-offset="0" max-vertical-offset="707">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="270">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1297,15 +1445,79 @@
     <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.drv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ds-entities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6403162" vertical-offset="270" max-vertical-offset="1206">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/vertical-nav/vertical-nav.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="288">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mocks/dev/GET_rest_experimental_category_dffdc421cea07719753a0c55cf9ca01c59b4066a.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9721836" vertical-offset="1371" max-vertical-offset="2286">
-          <caret line="115" column="56" selection-start-line="115" selection-start-column="56" selection-end-line="115" selection-end-column="56" />
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="3528">
+          <caret line="14" column="45" selection-start-line="12" selection-start-column="12" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/library/library.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.drv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/component/product-card/product-card.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48257372" vertical-offset="540" max-vertical-offset="1476">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/library/library.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1752434" vertical-offset="0" max-vertical-offset="719">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
           <folding />
         </state>
       </provider>

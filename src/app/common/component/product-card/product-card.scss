@@ -37,7 +37,8 @@
       color: $btn-info-color;
       border-radius: 0;
       &.active{
-        background-color: lighten($outer-space, 8%);
+        background-color: darken($brand-info, 20%);
+        color: palette(black);
       }
     }
 }

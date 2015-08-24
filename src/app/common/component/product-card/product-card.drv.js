@@ -6,7 +6,9 @@
     return {
       scope: {
         item:'=',
-        query:'='
+        query:'=',
+        titleProp:'@',
+        entity:'@'
       },
       restrict: 'E',
       controller: 'productCardCtrl',

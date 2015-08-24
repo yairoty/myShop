@@ -8,7 +8,8 @@
         list:'=',
         customClass:'@',
         onSelect:'&',
-        titleProp:'@'
+        titleProp:'@',
+        editable:'=?'
       },
       restrict: 'E',
       controller: 'verticalNavCtrl',

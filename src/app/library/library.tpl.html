@@ -11,10 +11,13 @@
             </vertical-nav>
         </div>
     </section>
+
     <section class="content">
-        <div class="content-container" ng-repeat="content in vm.cardList">
+        <div class="content-container" ng-repeat="content in vm.cardObject.products">
             <product-card
-                    item="content">
+                    item="content"
+                    title-prop="name"
+                    entity="{{'ENTITY.SubProducts' | getContstant}}">
             </product-card>
         </div>
     </section>

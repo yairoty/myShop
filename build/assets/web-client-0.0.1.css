@@ -7530,6 +7530,14 @@ body {
     height: 25px;
     text-align: center;
     color: #df8a13; }
+  .product-card .utils-bar {
+    margin: 2px 3px; }
+    .product-card .utils-bar button {
+      height: 22px;
+      width: 32%;
+      line-height: 5px; }
+      .product-card .utils-bar button span {
+        line-height: 0px; }
 
 .card-list {
   width: 100%; }
@@ -7542,6 +7550,7 @@ body {
     color: #fff;
     border-radius: 0; }
     .card-list .side-navbar-item.active {
-      background-color: #3b4a5a; }
+      background-color: #2390b0;
+      color: #0b0b0b; }
 
 /*# sourceMappingURL=web-client-0.0.1.css.map */

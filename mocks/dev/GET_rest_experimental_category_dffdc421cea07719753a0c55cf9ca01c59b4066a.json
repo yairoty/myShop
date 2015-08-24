@@ -9,35 +9,62 @@
         "products":[
           {"uId":1,
            "displayName":"Coffee Machines",
-           "subProducts":["FilterMachine","Mekineta","percolator"]
+           "subProducts":[
+             {"uId":1, "name":"FilterMachine", "price":33},
+             {"uId":2, "name":"percolator", "price":55},
+             {"uId":3, "name":"Mekineta", "price":999}
+             ]
           },
           {
             "uId":2,
             "displayName":"Wash Machines",
-            "subProducts":["frontDoor","TopDoor","integral"]
+            "subProducts":[
+              {"uId":4, "name":"FrontDoor", "price":373},
+              {"uId":5, "name":"TopDoor", "price":135},
+              {"uId":6, "name":"Integral", "price":9}
+            ]
 
           },
           {
             "uId":3,
             "displayName":"Sound System",
-            "subProducts":["stereo","stereoBar","blueTooth","players","PL","resiver"]
+            "subProducts":[
+              {"uId":7, "name":"Stereo", "price":111},
+              {"uId":8, "name":"Stereobar", "price":111},
+              {"uId":9, "name":"BlueTooth", "price":999},
+              {"uId":10, "name":"Players", "price":33},
+              {"uId":11, "name":"PL", "price":55},
+              {"uId":12, "name":"receiver", "price":999}
+            ]
           },
           {
             "uId":4,
             "displayName":"Video",
-            "subProducts":["television","screeners","projectors"]
+            "subProducts":[
+              {"uId":13, "name":"Television", "price":121},
+              {"uId":14, "name":"Screener", "price":222},
+              {"uId":15, "name":"Projector", "price":999}
+            ]
 
           },
           {
             "uId":5,
             "displayName":"Photography",
-            "subProducts":["videoCamera","SLR","lens","compact"]
+            "subProducts":[
+              {"uId":16, "name":"Video Camera", "price":121},
+              {"uId":17, "name":"SLR", "price":222},
+              {"uId":18, "name":"Lens", "price":999},
+              {"uId":19, "name":"Compact", "price":10}
+            ]
 
           },
           {
             "uId":6,
             "displayName":"Custom",
-            "subProducts":["chargers","remoteControllers"]
+            "subProducts":[
+              {"uId":20, "name":"Charger", "price":121},
+              {"uId":21, "name":"Remote Controller", "price":27}
+            ]
 
           }
         ]
@@ -50,25 +77,44 @@
           {
             "uId":7,
             "displayName":"Laptop",
-            "subProducts":["apple","dell","asus","lenovo"]
+            "subProducts":[
+              {"uId":22, "name":"Apple", "price":121},
+              {"uId":23, "name":"Dell", "price":222},
+              {"uId":24, "name":"Asus", "price":999},
+              {"uId":25, "name":"Lenovo", "price":10}
+            ]
 
           },
           {
             "uId":8,
             "displayName":"PC",
-            "subProducts":["apple","gamers","dell","asus"]
+            "subProducts":[
+              {"uId":26, "name":"Apple", "price":12111},
+              {"uId":27, "name":"Gamers", "price":222},
+              {"uId":28, "name":"Dell", "price":999},
+              {"uId":29, "name":"Asus", "price":1000}
+            ]
 
           },
           {
             "uId":9,
             "displayName":"Storage",
-            "subProducts":["HD","USB","backupTape","NASserver"]
+            "subProducts":[
+              {"uId":30, "name":"HD", "price":12111},
+              {"uId":31, "name":"USB", "price":222},
+              {"uId":32, "name":"Backup-Tape", "price":999},
+              {"uId":33, "name":"NAS server", "price":1000}
+            ]
 
           },
           {
             "uId":10,
             "displayName":"Tablet",
-            "subProducts":["android","windows","IOS"]
+            "subProducts":[
+              {"uId":34, "name":"Android", "price":100},
+              {"uId":35, "name":"Windows", "price":22},
+              {"uId":36, "name":"IOS", "price":9999}
+            ]
 
           }
         ]
@@ -81,17 +127,29 @@
           {
             "uId":11,
             "displayName":"Furnichers",
-            "subProducts":["Table","chair","waterTap"]
+            "subProducts":[
+              {"uId":37, "name":"Table", "price":600},
+              {"uId":38, "name":"chair", "price":150},
+              {"uId":39, "name":"waterTap", "price":150}
+            ]
           },
           {
             "uId":12,
             "displayName":"Kitchen",
-            "subProducts":["pots","dishes","galsses"]
+            "subProducts":[
+              {"uId":40, "name":"Pots", "price":60},
+              {"uId":41, "name":"Dishes", "price":50},
+              {"uId":42, "name":"Galsses", "price":15}
+            ]
             },
           {
             "uId":13,
             "displayName":"Pool",
-            "subProducts":["poolPump","poolCovers","yellowDuck"]
+            "subProducts":[
+              {"uId":43, "name":"Pool Pump", "price":600},
+              {"uId":44, "name":"Pool Covers", "price":150},
+              {"uId":45, "name":"yellow Duck", "price":10}
+            ]
           }
         ]
       },
@@ -103,17 +161,28 @@
           {
             "uId":14,
             "displayName":"Product1",
-            "subProducts":["subProduct1_1","subProduct1_2","subProduct1_3"]
+            "subProducts":[
+              {"uId":46, "name":"subProduct1_1", "price":0},
+              {"uId":47, "name":"subProduct1_2", "price":0},
+              {"uId":48, "name":"subProduct1_3", "price":0}
+              ]
           },
           {
             "uId":15,
             "displayName":"Product2",
-            "subProducts":["subProduct2_1","subProduct2_2","subProduct2_3"]
+            "subProducts":[
+              {"uId":49, "name":"subProduct2_1", "price":0},
+              {"uId":50, "name":"subProduct2_2", "price":0},
+              {"uId":51, "name":"subProduct2_3", "price":0}
+            ]
           },
           {
             "uId":16,
             "displayName":"Product3",
-            "subProducts":["subProduct3_1","subProduct3_2"]
+            "subProducts":[
+              {"uId":52, "name":"subProduct3_2", "price":0},
+              {"uId":53, "name":"subProduct3_3", "price":0}
+            ]
           }
         ]
       }
