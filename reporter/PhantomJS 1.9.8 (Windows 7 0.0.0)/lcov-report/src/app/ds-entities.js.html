@@ -12,13 +12,13 @@
     </style>
 </head>
 <body>
-<div class="header medium">
+<div class="header high">
     <h1>Code coverage report for <span class="entity">./src/app/ds-entities.js</span></h1>
     <h2>
-        Statements: <span class="metric">50% <small>(2 / 4)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">100% <small>(5 / 5)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         Branches: <span class="metric">100% <small>(0 / 0)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Functions: <span class="metric">50% <small>(1 / 2)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Lines: <span class="metric">50% <small>(2 / 4)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">100% <small>(2 / 2)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">100% <small>(5 / 5)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
     <div class="path"><a href="../../index.html">All files</a> &#187; <a href="index.html">./src/app/</a> &#187; ds-entities.js</div>
@@ -55,18 +55,80 @@
 28
 29
 30
-31</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -88,23 +150,54 @@
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">(function(module) {
   'use strict';
 &nbsp;
-  module.run(<span class="fstat-no" title="function not covered" >function(DS) {</span>
+  module.run(function(DS) {
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    var category = DS.defineResource({</span>
+    var category = DS.defineResource({
       name: 'Category',
       endpoint: 'category',
-      idAttribute: 'uId'
+      idAttribute: 'uId',
+      relations:{
+        hasMany: {
+          Products: {
+            localField: 'Products',
+            endpoint: 'products',
+            foreignKey: 'uId'
+          }
+        }
+      }
     });
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    var products = DS.defineResource({</span>
+    var products = DS.defineResource({
       name: 'Products',
       endpoint: 'products',
       idAttribute: 'uId',
       relations: {
         belongsTo: {
-          Formula: {
+          Category: {
             parent: true,
             localField: 'category',
+            localKey: 'uId'
+          }
+        },
+        hasMany: {
+          SubProducts: {
+            localField: 'SubProducts',
+            endpoint: 'subProducts',
+            foreignKey: 'uId'
+          }
+        }
+      }
+    });
+&nbsp;
+    var subProducts = DS.defineResource({
+      name: 'SubProducts',
+      endpoint: 'subProducts',
+      idAttribute: 'uId',
+      relations: {
+        belongsTo: {
+          Products: {
+            parent: true,
+            localField: 'products',
             localKey: 'uId'
           }
         }
@@ -120,7 +213,7 @@
 
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sun Aug 23 2015 09:24:30 GMT+0300 (Jerusalem Daylight Time)</div>
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Tue Aug 25 2015 08:52:28 GMT+0300 (Jerusalem Daylight Time)</div>
 </div>
 <script src="../../prettify.js"></script>
 <script>

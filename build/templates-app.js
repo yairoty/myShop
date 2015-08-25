@@ -1,4 +1,4 @@
-angular.module('templates-app', ['app.tpl.html', 'common/component/product-card/product-card.tpl.html', 'common/component/vertical-nav/vertical-nav.tpl.html', 'library/library.tpl.html', 'login-screen/login-screen.tpl.html']);
+angular.module('templates-app', ['app.tpl.html', 'common/component/product-card/product-card.tpl.html', 'common/component/sub-product-modal/sub-product-modal.tpl.html', 'common/component/vertical-nav/vertical-nav.tpl.html', 'common/templates/default-modal-window.tpl.html', 'common/templates/default-modal.tpl.html', 'common/templates/popover-firewall.tpl.html', 'library/library.tpl.html', 'login-screen/login-screen.tpl.html']);
 
 angular.module("app.tpl.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("app.tpl.html",
@@ -44,6 +44,19 @@ angular.module("common/component/product-card/product-card.tpl.html", []).run(["
     "</div>");
 }]);
 
+angular.module("common/component/sub-product-modal/sub-product-modal.tpl.html", []).run(["$templateCache", function($templateCache) {
+  $templateCache.put("common/component/sub-product-modal/sub-product-modal.tpl.html",
+    "<div class=\"subproduct-contianer\">\n" +
+    "    <labe class=\"subproduct-dismiss-btn\"\n" +
+    "            ng-click=\"vm.dismiss()\">\n" +
+    "        <span class=\"glyphicon glyphicon-remove-circle\"></span>\n" +
+    "    </labe>\n" +
+    "    <h2 class=\"subproduct-header\">{{vm.data.name}}</h2>\n" +
+    "    <div class=\"subproduct-price\">price: {{vm.data.price}} NIS</div>\n" +
+    "    <div class=\"img-placholder\"></div>\n" +
+    "</div>");
+}]);
+
 angular.module("common/component/vertical-nav/vertical-nav.tpl.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("common/component/vertical-nav/vertical-nav.tpl.html",
     "<div class=\"btn-group\" ng-class=\"$parent.vm.customClass\"\n" +
@@ -58,6 +71,52 @@ angular.module("common/component/vertical-nav/vertical-nav.tpl.html", []).run(["
     "        <span class=\"glyphicon\" ng-class=\"$parent.vm.actionIcon\"></span>\n" +
     "    </label>\n" +
     "</div>");
+}]);
+
+angular.module("common/templates/default-modal-window.tpl.html", []).run(["$templateCache", function($templateCache) {
+  $templateCache.put("common/templates/default-modal-window.tpl.html",
+    "<div modal-render=\"{{$isRendered}}\" tabindex=\"-1\" role=\"dialog\" class=\"modal\"\n" +
+    "     modal-animation-class=\"fade\"\n" +
+    "     ng-class=\"{in: animate}\"\n" +
+    "     ng-style=\"{'z-index': 1050 + index*10, display: 'block'}\"\n" +
+    "     ng-click=\"close($event)\">\n" +
+    "  <div class=\"modal-dialog\" ng-class=\"size ? 'modal-' + size : ''\">\n" +
+    "    <div class=\"modal-content\" modal-transclude></div>\n" +
+    "  </div>\n" +
+    "</div>\n" +
+    "");
+}]);
+
+angular.module("common/templates/default-modal.tpl.html", []).run(["$templateCache", function($templateCache) {
+  $templateCache.put("common/templates/default-modal.tpl.html",
+    "<div class=\"modal-header default-modal\">\n" +
+    "    <h3>{{modalOptions.headerText}}</h3>\n" +
+    "     <i class=\"glyphicon glyphicon-remove-circle\" ng-click=\"modalOptions.close()\"></i>\n" +
+    "</div>\n" +
+    "<div class=\"modal-body\">\n" +
+    "    <span>{{modalOptions.bodyText}}</span>\n" +
+    "</div>\n" +
+    "<div class=\"modal-footer default-modal\">\n" +
+    "    <button type=\"submit\" class=\"btn btn-info\" ng-click=\"modalOptions.ok()\">\n" +
+    "        {{modalOptions.actionButtonText}}\n" +
+    "    </button>\n" +
+    "    <button type=\"submit\" class=\"btn btn-default\" ng-click=\"modalOptions.close()\">\n" +
+    "        {{modalOptions.closeButtonText}}\n" +
+    "    </button>\n" +
+    "</div>\n" +
+    "");
+}]);
+
+angular.module("common/templates/popover-firewall.tpl.html", []).run(["$templateCache", function($templateCache) {
+  $templateCache.put("common/templates/popover-firewall.tpl.html",
+    "<div class=\"popover firewall\">\n" +
+    "  <div class=\"popover-title\">Firewall Rules</div>\n" +
+    "  <div class=\"popover-content\">\n" +
+    "    <firewall-rules></firewall-rules>\n" +
+    "  </div>\n" +
+    "</div>\n" +
+    "\n" +
+    "");
 }]);
 
 angular.module("library/library.tpl.html", []).run(["$templateCache", function($templateCache) {

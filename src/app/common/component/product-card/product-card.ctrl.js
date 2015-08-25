@@ -3,7 +3,7 @@
 
   module.controller('productCardCtrl', productCardCtrl);
 
-  function productCardCtrl() {
+  function productCardCtrl(modalService) {
 
     var vm = this,
         onSelectAction,
@@ -26,6 +26,7 @@
       switch (onSelectAction){
         case 'default':
           //TODO: default --> open modal
+          showModal(object, false);
           defaultOnSelectAction();
           break;
 
@@ -60,7 +61,7 @@
     }
 
     function editCard(entity){
-      //TODO open modal
+      showModal(entity, true);
     }
 
     function addCard(){
@@ -86,30 +87,24 @@
       }
     }
 
-    function showModal(){
-      /*var modalOptions = {
-        actionButtonText: 'Cancel',
-        headerText: vm.data.name,
-        action: constContextActions.eventAction,
-        actionText: 'Test',
-        payload: dataCopy
-      };
-      mainDialogSrv.showDialog(modalOptions);*/
-
-      /*return  modalService.showModal({
+    function showModal(object, editMode){
+      return  modalService.showModal({
         backdrop: true,
         backdropClass: 'light-opacity',
         keyboard: true,
         modalFade: true,
-        controller: 'Ctrl',
+        controller: 'subProductModal',
         controllerAs: 'vm',
-        templateUrl: '.tpl.html',
+        templateUrl: 'common/component/sub-product-modal/sub-product-modal.tpl.html',
         resolve: {
           modalOptions: function() {
-            return modalOptions;
+            return {
+              data: object,
+              editMode:editMode
+            };
           }
         }
-      });*/
+      });
     }
   }
 })(angular.module('web-app'));

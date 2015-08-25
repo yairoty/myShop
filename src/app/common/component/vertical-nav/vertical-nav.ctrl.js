@@ -10,11 +10,11 @@
 
     init();
 
-    function init() {
+    function init(){
     }
 
-    function displayTitle(object){
-      return vm.titleProp ? object[vm.titleProp]: object;
+    function displayTitle(object) {
+      return vm.titleProp ? object[vm.titleProp] : object;
     }
   }
 })(angular.module('web-app'));
