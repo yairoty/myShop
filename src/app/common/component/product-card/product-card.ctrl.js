@@ -25,8 +25,7 @@
     function onSelect(object){
       switch (onSelectAction){
         case 'default':
-          //TODO: default --> open modal
-          showModal(object, false);
+          showModal(object.option, false);
           defaultOnSelectAction();
           break;
 
@@ -70,9 +69,8 @@
         name: 'new entity',
         price: 0
       };
-
+      showModal(vanilaObj, true);
       vm.item.subProducts.push(vanilaObj);
-      //TODO open modal
       defaultOnSelectAction();
     }
 

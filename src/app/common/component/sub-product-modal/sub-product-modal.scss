@@ -4,19 +4,50 @@
   height: 300px;
   padding: 15px 2px;
   .subproduct-header{
-    text-align: center;
-    margin: 0 auto;
+    font-size: em(32px);
+    h2, input{
+      text-align: center;
+      margin: 0 auto;
+    }
+    input{
+      width: 50%;
+      height: 20%;
+      border: dashed;
+    }
   }
   .subproduct-price{
     position: absolute;
     width: 100%;
-    text-align: center;
     background-color: palette(grey,'x-light');
     color: darken($brand-warning, 5%);
+    opacity: 0.5;
     bottom: 10px;
+    span{
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+    }
+    input{
+      width: 30%;
+      margin: 0 auto;
+      border: dashed;
+      text-align:left;
+    }
   }
   .img-placholder{
-
+    position: absolute;
+    height: 40%;
+    width: 70%;
+    left: 50%;
+    margin-left: -35%;
+    span{
+      position: relative;
+      height: 100%;
+      width: 100%;
+      font-size: em(100px);
+      text-align: center;
+      color: palette(gray,'light');
+    }
   }
 
   .subproduct-dismiss-btn{

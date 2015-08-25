@@ -3,7 +3,27 @@
             ng-click="vm.dismiss()">
         <span class="glyphicon glyphicon-remove-circle"></span>
     </labe>
-    <h2 class="subproduct-header">{{vm.data.name}}</h2>
-    <div class="subproduct-price">price: {{vm.data.price}} NIS</div>
-    <div class="img-placholder"></div>
+
+    <div class="subproduct-header">
+        <h2 ng-if="!vm.isEditMode">{{vm.data.name}}</h2>
+        <input ng-if="vm.isEditMode"
+               type="text"
+               ng-model="vm.data.name"
+               placeholder="enter name">
+    </div>
+
+    <div class="subproduct-price">
+        <span ng-if="!vm.isEditMode">price: {{vm.data.price}} NIS</span>
+        <input ng-if="vm.isEditMode"
+           type="text"
+           ng-model="vm.data.price"
+           placeholder="enter price">
+        <span ng-if="vm.isEditMode">NIS</span>
+    </div>
+
+
+
+    <div class="img-placholder">
+        <span class="glyphicon glyphicon-camera"></span>
+    </div>
 </div>

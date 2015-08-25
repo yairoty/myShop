@@ -7564,15 +7564,43 @@ body {
   height: 300px;
   padding: 15px 2px; }
   .subproduct-contianer .subproduct-header {
-    text-align: center;
-    margin: 0 auto; }
+    font-size: 2em; }
+    .subproduct-contianer .subproduct-header h2, .subproduct-contianer .subproduct-header input {
+      text-align: center;
+      margin: 0 auto; }
+    .subproduct-contianer .subproduct-header input {
+      width: 50%;
+      height: 20%;
+      border: dashed; }
   .subproduct-contianer .subproduct-price {
     position: absolute;
     width: 100%;
-    text-align: center;
     background-color: #f2f2f2;
     color: #eea236;
+    opacity: 0.5;
     bottom: 10px; }
+    .subproduct-contianer .subproduct-price span {
+      text-align: center;
+      display: block;
+      margin: 0 auto; }
+    .subproduct-contianer .subproduct-price input {
+      width: 30%;
+      margin: 0 auto;
+      border: dashed;
+      text-align: left; }
+  .subproduct-contianer .img-placholder {
+    position: absolute;
+    height: 40%;
+    width: 70%;
+    left: 50%;
+    margin-left: -35%; }
+    .subproduct-contianer .img-placholder span {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      font-size: 6.25em;
+      text-align: center;
+      color: #b8b8b8; }
   .subproduct-contianer .subproduct-dismiss-btn {
     float: right;
     width: 10%; }

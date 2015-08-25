@@ -51,9 +51,29 @@ angular.module("common/component/sub-product-modal/sub-product-modal.tpl.html", 
     "            ng-click=\"vm.dismiss()\">\n" +
     "        <span class=\"glyphicon glyphicon-remove-circle\"></span>\n" +
     "    </labe>\n" +
-    "    <h2 class=\"subproduct-header\">{{vm.data.name}}</h2>\n" +
-    "    <div class=\"subproduct-price\">price: {{vm.data.price}} NIS</div>\n" +
-    "    <div class=\"img-placholder\"></div>\n" +
+    "\n" +
+    "    <div class=\"subproduct-header\">\n" +
+    "        <h2 ng-if=\"!vm.isEditMode\">{{vm.data.name}}</h2>\n" +
+    "        <input ng-if=\"vm.isEditMode\"\n" +
+    "               type=\"text\"\n" +
+    "               ng-model=\"vm.data.name\"\n" +
+    "               placeholder=\"enter name\">\n" +
+    "    </div>\n" +
+    "\n" +
+    "    <div class=\"subproduct-price\">\n" +
+    "        <span ng-if=\"!vm.isEditMode\">price: {{vm.data.price}} NIS</span>\n" +
+    "        <input ng-if=\"vm.isEditMode\"\n" +
+    "           type=\"text\"\n" +
+    "           ng-model=\"vm.data.price\"\n" +
+    "           placeholder=\"enter price\">\n" +
+    "        <span ng-if=\"vm.isEditMode\">NIS</span>\n" +
+    "    </div>\n" +
+    "\n" +
+    "\n" +
+    "\n" +
+    "    <div class=\"img-placholder\">\n" +
+    "        <span class=\"glyphicon glyphicon-camera\"></span>\n" +
+    "    </div>\n" +
     "</div>");
 }]);
 
