@@ -7437,6 +7437,11 @@ body {
     margin: 5px auto; }
   .login-screen-container .login-screen-form {
     margin: 10px auto; }
+    .login-screen-container .login-screen-form .alert-bar {
+      text-align: center;
+      border-radius: 5px;
+      width: 60%;
+      margin: 0 auto; }
     .login-screen-container .login-screen-form .form-group {
       padding-top: 10px; }
     .login-screen-container .login-screen-form label {

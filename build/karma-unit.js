@@ -24,6 +24,7 @@ module.exports = function(karma) {
             'vendor/angular-ui-layout/ui-layout.js',
             'vendor/bg-splitter/js/splitter.js',
             'vendor/angular-loading-bar/build/loading-bar.js',
+            'vendor/angular-local-storage/dist/angular-local-storage.js',
             'build/templates-app.js',
             'build/templates-common.js',
             'vendor/angular-mocks/angular-mocks.js',

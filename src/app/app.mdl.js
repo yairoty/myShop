@@ -6,7 +6,8 @@
   function appConfig($stateProvider,
                      $urlRouterProvider,
                      DSProvider,
-                     cfpLoadingBarProvider) {
+                     cfpLoadingBarProvider,
+                     localStorageServiceProvider) {
 
     cfpLoadingBarProvider.includeSpinner = true;
     cfpLoadingBarProvider.includeBar = false;
@@ -29,6 +30,13 @@
         return response.data;
       }
     };
+
+
+    localStorageServiceProvider
+      .setPrefix('web-app')
+      .setStorageType('sessionStorage')
+      .setNotify(true, true);
+
 
     $stateProvider.state('app', {
       abstract: true,
@@ -64,6 +72,7 @@
                             'bgDirectives',
                             'angular-loading-bar',
                             'js-data',
-                            'flow'])));
+                            'flow',
+                            'LocalStorageModule'])));
 
 

@@ -211,7 +211,7 @@ angular.module("login-screen/login-screen.tpl.html", []).run(["$templateCache", 
     "                </span>\n" +
     "            </div>\n" +
     "            <div class=\"alert-bar alert-danger\"\n" +
-    "                 ng-show=\"!vm.showAuthError\">Wrong Password or User Name</div>\n" +
+    "                 ng-show=\"vm.showAuthError\">Wrong Password or User Name</div>\n" +
     "        </form>\n" +
     "    </div>\n" +
     "    <div class=\"login-screen-btn\">\n" +

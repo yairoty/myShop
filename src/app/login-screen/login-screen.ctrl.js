@@ -3,7 +3,7 @@
 
   module.controller('loginScreenCtrl', loginScreenCtrl);
 
-  function loginScreenCtrl(loginSrv, $state) {
+  function loginScreenCtrl(loginSrv, $state, localStorageService) {
 
     var vm = this;
 
@@ -19,7 +19,8 @@
     function validateUsr(){
       loginSrv.validate(vm.data.usrName , vm.data.usrPass)
         .then(function(response){
-          if(response.isAuthValid){
+          if(response.isAuthValid && angular.isDefined(response.authToken)){
+            localStorageService.set('auth', response.authToken);
             $state.go('app.library');
           }else{
             $state.go('app.login');

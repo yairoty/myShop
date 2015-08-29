@@ -93,6 +93,7 @@ module.exports = function(grunt) {
         'vendor/angular-ui-layout/ui-layout.js',
         'vendor/bg-splitter/js/splitter.js',
         'vendor/angular-loading-bar/build/loading-bar.js',
+        'vendor/angular-local-storage/dist/angular-local-storage.js'
       ],
       css: [],
       assets: []
