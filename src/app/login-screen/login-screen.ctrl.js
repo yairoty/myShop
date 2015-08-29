@@ -7,11 +7,13 @@
 
     var vm = this;
 
+    vm.showAuthError = false;
+
     vm.validateUsr = validateUsr;
+
     init();
 
     function init() {
-
     }
 
     function validateUsr(){
@@ -21,6 +23,7 @@
             $state.go('app.library');
           }else{
             $state.go('app.login');
+            vm.showAuthError = true;
           }
         });
     }

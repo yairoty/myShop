@@ -18,6 +18,13 @@ body {
   .login-screen-form{
     margin: 10px auto;
 
+    .alert-bar{
+      text-align: center;
+      border-radius: 5px;
+      width: 60%;
+      margin: 0 auto;
+    }
+
     .form-group{
       padding-top: 10px;
     }

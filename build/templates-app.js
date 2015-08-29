@@ -210,6 +210,8 @@ angular.module("login-screen/login-screen.tpl.html", []).run(["$templateCache", 
     "                    use single word, text or digits\n" +
     "                </span>\n" +
     "            </div>\n" +
+    "            <div class=\"alert-bar alert-danger\"\n" +
+    "                 ng-show=\"!vm.showAuthError\">Wrong Password or User Name</div>\n" +
     "        </form>\n" +
     "    </div>\n" +
     "    <div class=\"login-screen-btn\">\n" +
@@ -217,7 +219,7 @@ angular.module("login-screen/login-screen.tpl.html", []).run(["$templateCache", 
     "        <button type=\"submit\"\n" +
     "                class=\"form-group btn\"\n" +
     "                ng-click=\"vm.validateUsr()\"\n" +
-    "                ng-disabled=\"!vm.loginForm.$valid\">\n" +
+    "                ng-disabled=\"vm.loginForm.$valid\">\n" +
     "            <label>Submit</label>\n" +
     "        </button>\n" +
     "    </div>\n" +
