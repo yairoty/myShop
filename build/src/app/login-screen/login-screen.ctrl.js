@@ -20,7 +20,7 @@
       loginSrv.validate(vm.data.usrName , vm.data.usrPass)
         .then(function(response){
           if(response.isAuthValid && angular.isDefined(response.authToken)){
-            localStorageService.set('auth', response.authToken);
+            localStorageService.set('authToken', response.authToken);
             $state.go('app.library');
           }else{
             $state.go('app.login');

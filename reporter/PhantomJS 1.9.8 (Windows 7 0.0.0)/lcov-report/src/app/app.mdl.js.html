@@ -15,10 +15,10 @@
 <div class="header medium">
     <h1>Code coverage report for <span class="entity">./src/app/app.mdl.js</span></h1>
     <h2>
-        Statements: <span class="metric">78.57% <small>(11 / 14)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Branches: <span class="metric">0% <small>(0 / 4)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Functions: <span class="metric">75% <small>(3 / 4)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Lines: <span class="metric">78.57% <small>(11 / 14)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">65% <small>(13 / 20)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 8)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">57.14% <small>(4 / 7)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">65% <small>(13 / 20)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
     <div class="path"><a href="../../index.html">All files</a> &#187; <a href="index.html">./src/app/</a> &#187; app.mdl.js</div>
@@ -103,7 +103,26 @@
 76
 77
 78
-79</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -114,9 +133,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -143,6 +165,22 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -181,7 +219,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">(function(app) {
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">(function (app) {
   'use strict';
 &nbsp;
   app.config(appConfig);
@@ -190,12 +228,15 @@
                      $urlRouterProvider,
                      DSProvider,
                      cfpLoadingBarProvider,
-                     localStorageServiceProvider) {
+                     localStorageServiceProvider,
+                     $httpProvider) {
 &nbsp;
     cfpLoadingBarProvider.includeSpinner = true;
     cfpLoadingBarProvider.includeBar = false;
     cfpLoadingBarProvider.latencyThreshold = 100;
 &nbsp;
+&nbsp;
+    //DS
     DSProvider.defaults = {
       basePath: 'rest/experimental',
       log: false,
@@ -204,7 +245,7 @@
       findInverseLinks: false,
       findHasMany: false,
       findBelongsTo: false,
-      deserialize: <span class="fstat-no" title="function not covered" >function(resource, response) {</span>
+      deserialize: <span class="fstat-no" title="function not covered" >function (resource, response) {</span>
 &nbsp;
 <span class="cstat-no" title="statement not covered" >        if (resource.name === 'Category' &amp;&amp; response.config.method === 'GET') {</span>
 <span class="cstat-no" title="statement not covered" >          return response.data;</span>
@@ -214,13 +255,29 @@
       }
     };
 &nbsp;
-&nbsp;
+    // local storage
     localStorageServiceProvider
       .setPrefix('web-app')
       .setStorageType('sessionStorage')
       .setNotify(true, true);
 &nbsp;
+    // interceptors
 &nbsp;
+    /* @ngInject */
+    $httpProvider.interceptors.push(function ($injector) {
+        return {
+          request: <span class="fstat-no" title="function not covered" >function (config) {</span>
+<span class="cstat-no" title="statement not covered" >            config.headers = config.headers || {};</span>
+<span class="cstat-no" title="statement not covered" >            $injector.invoke(<span class="fstat-no" title="function not covered" >function(localStorageService){</span></span>
+<span class="cstat-no" title="statement not covered" >              config.headers.token = localStorageService.get('authToken') || null;</span>
+            });
+<span class="cstat-no" title="statement not covered" >            return config;</span>
+          }
+        };
+      }
+    );
+&nbsp;
+    // view states
     $stateProvider.state('app', {
       abstract: true,
       templateUrl: 'app.tpl.html'
@@ -241,22 +298,22 @@
     $urlRouterProvider.otherwise('/login');
   }
 &nbsp;
-  app.run(function() {
+  app.run(function () {
   });
 &nbsp;
 }
 (angular.module('web-app', ['templates-app',
-                            'templates-common',
-                            'ngAnimate',
-                            'ngSanitize',
-                            'ui.bootstrap',
-                            'ui.router',
-                            'ui.layout',
-                            'bgDirectives',
-                            'angular-loading-bar',
-                            'js-data',
-                            'flow',
-                            'LocalStorageModule'])));
+  'templates-common',
+  'ngAnimate',
+  'ngSanitize',
+  'ui.bootstrap',
+  'ui.router',
+  'ui.layout',
+  'bgDirectives',
+  'angular-loading-bar',
+  'js-data',
+  'flow',
+  'LocalStorageModule'])));
 &nbsp;
 &nbsp;
 &nbsp;</pre></td></tr>
@@ -264,7 +321,7 @@
 
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sat Aug 29 2015 11:51:05 GMT+0300 (Jerusalem Daylight Time)</div>
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sat Aug 29 2015 13:17:15 GMT+0300 (Jerusalem Daylight Time)</div>
 </div>
 <script src="../../prettify.js"></script>
 <script>

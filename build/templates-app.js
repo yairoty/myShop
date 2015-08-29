@@ -219,7 +219,7 @@ angular.module("login-screen/login-screen.tpl.html", []).run(["$templateCache", 
     "        <button type=\"submit\"\n" +
     "                class=\"form-group btn\"\n" +
     "                ng-click=\"vm.validateUsr()\"\n" +
-    "                ng-disabled=\"vm.loginForm.$valid\">\n" +
+    "                ng-disabled=\"!vm.loginForm.$valid\">\n" +
     "            <label>Submit</label>\n" +
     "        </button>\n" +
     "    </div>\n" +
