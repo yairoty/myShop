@@ -1,5 +1,7 @@
+
+
 <div class="btn-group" ng-class="$parent.vm.customClass"
-     ng-repeat="category in vm.list">
+     ng-repeat="category in vm.list | filter: vm.filterKey">
     <!--TODO: angular 1.3.18 bug? $parent needed to get to this-->
     <label class="btn side-navbar-item"
            ng-model="vm.navbarSelected"

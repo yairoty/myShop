@@ -4,7 +4,6 @@
   "statusCode": 200,
   "data": [
       {"displayName":"Electricity",
-        "isActive":true,
         "uId":1,
         "products":[
           {"uId":1,
@@ -71,7 +70,6 @@
       },
       {
         "displayName":"Computer",
-        "isActive":true,
         "uId":2,
         "products":[
           {
@@ -121,7 +119,6 @@
       },
       {
         "displayName":"Home",
-        "isActive":false,
         "uId":3,
         "products":[
           {
@@ -156,7 +153,6 @@
       {
         "uId":4,
         "displayName":"Category-4",
-        "isActive":true,
         "products":[
           {
             "uId":14,

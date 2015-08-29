@@ -7504,6 +7504,12 @@ body {
       margin: 15px auto;
       text-align: center;
       color: #fff; }
+    .library-container .side-navbar .side-navbar-actions {
+      margin: 5px 2px 5px 2px; }
+      .library-container .side-navbar .side-navbar-actions .side-navbar-btn {
+        display: inline-block;
+        width: 100%;
+        background-color: #fff; }
     .library-container .side-navbar .side-navbar-container {
       width: 100%; }
       .library-container .side-navbar .side-navbar-container .side-navbar-item {

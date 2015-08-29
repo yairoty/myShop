@@ -80,7 +80,7 @@ angular.module("common/component/sub-product-modal/sub-product-modal.tpl.html", 
 angular.module("common/component/vertical-nav/vertical-nav.tpl.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("common/component/vertical-nav/vertical-nav.tpl.html",
     "<div class=\"btn-group\" ng-class=\"$parent.vm.customClass\"\n" +
-    "     ng-repeat=\"category in vm.list\">\n" +
+    "     ng-repeat=\"category in vm.list | filter: vm.filterKey\">\n" +
     "    <!--TODO: angular 1.3.18 bug? $parent needed to get to this-->\n" +
     "    <label class=\"btn side-navbar-item\"\n" +
     "           ng-model=\"vm.navbarSelected\"\n" +
@@ -142,7 +142,7 @@ angular.module("common/templates/popover-firewall.tpl.html", []).run(["$template
 angular.module("library/library.tpl.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("library/library.tpl.html",
     "<div class=\"library-container\">\n" +
-    "    <h2 class=\"library-title\">library</h2>\n" +
+    "    <h2 class=\"library-title\">Library</h2>\n" +
     "    <section class=\"side-navbar\">\n" +
     "        <div>\n" +
     "            <div class=\"side-navbar-title\"><h2>Categoreis</h2></div>\n" +
@@ -152,6 +152,12 @@ angular.module("library/library.tpl.html", []).run(["$templateCache", function($
     "                    title-prop=\"displayName\"\n" +
     "                    list=\"vm.categories\">\n" +
     "            </vertical-nav>\n" +
+    "            <div class=\"side-navbar-actions\">\n" +
+    "                <label class=\"btn side-navbar-btn\"\n" +
+    "                       ng-click=\"vm.addCategory()\">\n" +
+    "                    Add Category\n" +
+    "                </label>\n" +
+    "            </div>\n" +
     "        </div>\n" +
     "    </section>\n" +
     "\n" +

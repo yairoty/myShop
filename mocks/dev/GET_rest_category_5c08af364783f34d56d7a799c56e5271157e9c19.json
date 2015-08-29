@@ -1,0 +1,31 @@
+{
+  "requestUrl": "/rest/category",
+  "contentType": "application/javascript",
+  "statusCode": 200,
+  "data": [{
+    "displayName":"Electricity",
+    "uId":1,
+    "products":[]
+    },{
+    "displayName":"Computer",
+    "uId":2,
+    "products":[]
+  },{
+    "displayName":"Home",
+    "uId":3,
+    "products":[]
+  },{
+    "displayName":"Category-4",
+    "uId":4,
+    "products":[]
+  },{
+    "displayName":"Category-5",
+    "uId":5,
+    "products":[]
+  },{
+    "displayName":"Category-6",
+    "uId":6,
+    "products":[]
+  }
+  ]
+}

@@ -1,5 +1,5 @@
 <div class="library-container">
-    <h2 class="library-title">library</h2>
+    <h2 class="library-title">Library</h2>
     <section class="side-navbar">
         <div>
             <div class="side-navbar-title"><h2>Categoreis</h2></div>
@@ -9,6 +9,12 @@
                     title-prop="displayName"
                     list="vm.categories">
             </vertical-nav>
+            <div class="side-navbar-actions">
+                <label class="btn side-navbar-btn"
+                       ng-click="vm.addCategory()">
+                    Add Category
+                </label>
+            </div>
         </div>
     </section>
 
